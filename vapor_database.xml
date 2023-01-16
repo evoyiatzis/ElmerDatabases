@@ -1,0 +1,2359 @@
+  <material name="1,2-Butanediol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.5626E-08 * tx^(0.83521) / (1 + 71.798/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00014035 * tx^(1.0032) / (1 + 711.66/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1162.6590916656496 + 2828.419569245792*((1877.6/tx)/sinh(1877.6/tx)) + 2080.5361680407455*((833.0/tx)/cosh(833.0/tx))"</parameter> 
+  </material>
+
+  <material name="Methyl Isocyanate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.1573E-07 * tx^(0.66404) / (1 + 173.59/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0026136 * tx^(0.62) / (1 + 1631.7/tx + 126720.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "830.8309080315759 + 2148.942390815848*((2188.0/tx)/sinh(2188.0/tx)) + 1507.1167503223414*((1008.2/tx)/cosh(1008.2/tx))"</parameter> 
+  </material>
+
+  <material name="1-Nonanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.2E-07 * tx^(0.74) / (1 + 180.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-30.715 * tx^(-0.1075) / (1 + 8107.0/tx -156830000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1067.5576845089754 + 3421.730344633963*((1578.0/tx)/sinh(1578.0/tx)) + 2487.270761050782*((721.11/tx)/cosh(721.11/tx))"</parameter> 
+  </material>
+
+  <material name="p-Cresol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.4305E-07 * tx^(0.7451) / (1 + 159.8/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00019063 * tx^(0.9282) / (1 + 716.91/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "850.9603763049781 + 1951.768585680754*((766.22/tx)/sinh(766.22/tx)) + 879.1836195699154*((2464.6/tx)/cosh(2464.6/tx))"</parameter> 
+  </material>
+
+  <material name="Tridecane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.5585E-08 * tx^(0.8987) / (1 + 165.3/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "5.3701E-06 * tx^(1.4751) / (1 + 599.09/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1165.9706244397553 + 3962.0545339692003*((1669.5/tx)/sinh(1669.5/tx)) + 2711.9556792305025*((741.02/tx)/cosh(741.02/tx))"</parameter> 
+  </material>
+
+  <material name="1,2-Dibromoethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.1379E-07 * tx^(0.8502) / (1 + 93.816/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00015878 * tx^(0.8636) / (1 + 659.5/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "398.7306370300279 + 677.36194112716*((1981.0/tx)/sinh(1981.0/tx)) + 502.3390678520243*((845.2/tx)/cosh(845.2/tx))"</parameter> 
+  </material>
+
+  <material name="Propylene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.3919E-07 * tx^(0.5423) / (1 + 263.73/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "4.49E-05 * tx^(1.2018) / (1 + 421.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1042.1167050937102 + 3578.919451498512*((1398.8/tx)/sinh(1398.8/tx)) + 1776.4843604071698*((616.46/tx)/cosh(616.46/tx))"</parameter> 
+  </material>
+
+  <material name="1-Hexyne (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.9986E-07 * tx^(0.62647) / (1 + 178.17/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "5.8116E-05 * tx^(1.0724) / (1 -77.165/tx + 123900.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1111.3464713014769 + 3113.693580510228*((1529.0/tx)/sinh(1529.0/tx)) + 2114.589572407345*((683.0/tx)/cosh(683.0/tx))"</parameter> 
+  </material>
+
+  <material name="Biphenyl (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.3874E-06 * tx^(0.4434) / (1 + 678.22/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.8646E-06 * tx^(1.4098) / (1 -391.35/tx + 156820.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "697.6949285315011 + 2730.406633127507*((1904.1/tx)/sinh(1904.1/tx)) + 2709.6554130206123*((828.81/tx)/cosh(828.81/tx))"</parameter> 
+  </material>
+
+  <material name="Vinyl acetylene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.7484E-07 * tx^(0.5304) / (1 + 230.17/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "5.4197E-05 * tx^(1.0632) / (1 -70.589/tx + 90617.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1074.9586746388256 + 2331.4647305709354*((1610.2/tx)/sinh(1610.2/tx)) + 1710.6049479822777*((710.4/tx)/cosh(710.4/tx))"</parameter> 
+  </material>
+
+  <material name="Anisole (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.7531E-07 * tx^(0.72) / (1 + 176.17/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00059858 * tx^(0.7527) / (1 + 354.04/tx + 241830.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "706.2284037166645 + 2716.6258761273343*((1605.1/tx)/sinh(1605.1/tx)) + 2006.6984890207698*((751.2/tx)/cosh(751.2/tx))"</parameter> 
+  </material>
+
+  <material name="1-Butanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.4031E-06 * tx^(0.4611) / (1 + 537.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0011484 * tx^(0.87647) / (1 + 3253.7/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1005.6447783102361 + 3495.2024780900574*((1607.3/tx)/sinh(1607.3/tx)) + 2336.7007727841815*((712.4/tx)/cosh(712.4/tx))"</parameter> 
+  </material>
+
+  <material name="3-Octanone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.1515E-11 * tx^(1.8808)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "8.1833E-08 * tx^(2.0418)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1166.1931281960726 + 3439.8485508849253*((802.11/tx)/sinh(802.11/tx)) -1634.6358735107872*((981.95/tx)/cosh(981.95/tx))"</parameter> 
+  </material>
+
+  <material name="Dichloromethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.6787E-07 * tx^(0.5741) / (1 + 276.16/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0014796 * tx^(0.69531) / (1 + 2657.4/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "427.16234453256925 + 801.1060066702319*((1256.0/tx)/sinh(1256.0/tx)) + 503.3404142438626*((548.0/tx)/cosh(548.0/tx))"</parameter> 
+  </material>
+
+  <material name="Butyl acetate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.006E-07 * tx^(0.77881) / (1 + 95.108/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "5.86E-09 * tx^(2.376) / (1 -401.32/tx + 69280.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1005.8688885544793 + 3244.710579392188*((1956.0/tx)/sinh(1956.0/tx)) + 2426.0001095057537*((811.2/tx)/cosh(811.2/tx))"</parameter> 
+  </material>
+
+  <material name="Benzoic acid (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.4266E-08 * tx^(0.8289) / (1 + 91.197/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0001163 * tx^(0.9705) / (1 + 740.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "635.3844463219941 + 2166.2880541599034*((1792.5/tx)/sinh(1792.5/tx)) + 1832.7673115935347*((835.9/tx)/cosh(835.9/tx))"</parameter> 
+  </material>
+
+  <material name="o-Dichlorobenzene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.603E-07 * tx^(0.763) / (1 + 205.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-1420.0 * tx^(0.7614) / (1 -4504000000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "472.64675926769957 + 1415.21922564842*((1363.2/tx)/sinh(1363.2/tx)) + 1084.3392836394835*((619.2/tx)/cosh(619.2/tx))"</parameter> 
+  </material>
+
+  <material name="1,1-Dichloroethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.0135E-07 * tx^(0.73421) / (1 + 111.98/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0001315 * tx^(1.0113) / (1 + 1023.8/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "640.789594414504 + 847.4404996970468*((768.98/tx)/sinh(768.98/tx)) + 444.9310200288685*((2533.2/tx)/cosh(2533.2/tx))"</parameter> 
+  </material>
+
+  <material name="1-Decanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.5065E-08 * tx^(0.8341) / (1 + 79.56/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-0.3072 * tx^(0.489) / (1 -67500.0/tx -29400000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1073.0278059765576 + 3406.597933246349*((1568.0/tx)/sinh(1568.0/tx)) + 2487.978980178806*((720.5/tx)/cosh(720.5/tx))"</parameter> 
+  </material>
+
+  <material name="Methanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.0663E-07 * tx^(0.69655) / (1 + 205.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "5.7992E-07 * tx^(1.7862)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1225.0225174194009 + 2743.286438427732*((1916.5/tx)/sinh(1916.5/tx)) + 1674.4970485483677*((896.7/tx)/cosh(896.7/tx))"</parameter> 
+  </material>
+
+  <material name="N,N-Dimethyl formamide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.5538E-06 * tx^(0.3766) / (1 + 1176.1/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.014449 * tx^(0.3612) / (1 + 595.22/tx + 728130.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "987.7721469597003 + 2439.3320471317807*((1532.0/tx)/sinh(1532.0/tx)) + 1792.2181613811738*((762.0/tx)/cosh(762.0/tx))"</parameter> 
+  </material>
+
+  <material name="Triethyl amine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.411E-07 * tx^(0.6845) / (1 + 223.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.000106 * tx^(1.0161) / (1 + 91.0/tx + 132900.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1261.5871133511216 + 2525.8424745528214*((809.37/tx)/sinh(809.37/tx)) + 1465.4610139341833*((2231.7/tx)/cosh(2231.7/tx))"</parameter> 
+  </material>
+
+  <material name="cis-2-Methylcyclohexanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.4E-07 * tx^(0.68) / (1 + 210.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.069565 * tx^(0.1633) / (1 + 208.7/tx + 1209500.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "808.150179541248 + 2339.0894077056746*((687.84/tx)/sinh(687.84/tx)) + 1738.1372374381115*((1732.4/tx)/cosh(1732.4/tx))"</parameter> 
+  </material>
+
+  <material name="Carbon monoxide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.1127E-06 * tx^(0.5338) / (1 + 94.7/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00059882 * tx^(0.6863) / (1 + 57.13/tx + 501.92/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1039.1965755209728 + 313.208449809176*((3085.1000000000004/tx)/sinh(3085.1000000000004/tx)) + 301.8554021585071*((1538.2/tx)/cosh(1538.2/tx))"</parameter> 
+  </material>
+
+  <material name="1-Heptene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.7509E-08 * tx^(0.81089) / (1 + 69.927/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.133E-05 * tx^(1.2885) / (1 + 487.8/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1206.9941496786814 + 3703.3770374328087*((1735.9/tx)/sinh(1735.9/tx)) + 2551.0749692980858*((785.73/tx)/cosh(785.73/tx))"</parameter> 
+  </material>
+
+  <material name="o-Terphenyl (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.0859E-07 * tx^(0.51971) / (1 + 652.24/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "7.8652E-05 * tx^(0.95174) / (1 -282.82/tx + 289490.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "899.6379390418982 + 2721.101904719228*((2404.4/tx)/sinh(2404.4/tx)) + 2755.057060292893*((967.71/tx)/cosh(967.71/tx))"</parameter> 
+  </material>
+
+  <material name="2-Methylpentane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.1164E-06 * tx^(0.4537) / (1 + 374.74/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "6.1119E-05 * tx^(1.0861) / (1 -59.592/tx + 141260.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1047.8633335561349 + 4410.773566829312*((1602.0/tx)/sinh(1602.0/tx)) + 2846.5213258174954*((691.6/tx)/cosh(691.6/tx))"</parameter> 
+  </material>
+
+  <material name="Hexadecane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.2463E-07 * tx^(0.7322) / (1 + 395.0/tx + 6000.0/(tx^2))"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "4.438E-06 * tx^(1.4949) / (1 + 682.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1160.698876476344 + 3962.7512948617646*((1691.2/tx)/sinh(1691.2/tx)) + 2766.2815364485855*((744.41/tx)/cosh(744.41/tx))"</parameter> 
+  </material>
+
+  <material name="2-Pentyl mercaptan (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.8646E-08 * tx^(0.81492) / (1 + 85.198/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00022307 * tx^(0.93358) / (1 + 794.16/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1086.9004079882718 + 2827.8410014491365*((1741.8/tx)/sinh(1741.8/tx)) + 2013.8411638077037*((795.78/tx)/cosh(795.78/tx))"</parameter> 
+  </material>
+
+  <material name="1,2-Dichloroethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.4321E-07 * tx^(0.7785) / (1 + 98.159/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00021054 * tx^(0.9574) / (1 + 1414.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "659.5751216966676 + 1137.236815672243*((1737.6000000000001/tx)/sinh(1737.6000000000001/tx)) + 887.2346935847071*((795.45/tx)/cosh(795.45/tx))"</parameter> 
+  </material>
+
+  <material name="2-Methyloctanoic acid (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.2131E-08 * tx^(0.80319) / (1 + 99.437/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0001813 * tx^(0.92912) / (1 + 793.45/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1104.8545728769861 + 3114.8013606338095*((1738.3999999999999/tx)/sinh(1738.3999999999999/tx)) + 2268.544563436777*((788.01/tx)/cosh(788.01/tx))"</parameter> 
+  </material>
+
+  <material name="Phenyl isocyanate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.536E-08 * tx^(0.80872) / (1 + 88.273/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00016675 * tx^(0.91777) / (1 + 730.1/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "501.0296279320051 + 2143.4561751232154*((1239.7/tx)/sinh(1239.7/tx)) + 1302.7962394445299*((576.78/tx)/cosh(576.78/tx))"</parameter> 
+  </material>
+
+  <material name="2-Pentanone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.463E-07 * tx^(0.6653) / (1 + 208.7/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-0.01719 * tx^(0.4832) / (1 -3798.0/tx -1235000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1045.5195089414772 + 3144.581068890532*((1659.2/tx)/sinh(1659.2/tx)) + 2091.2015585326294*((743.96/tx)/cosh(743.96/tx))"</parameter> 
+  </material>
+
+  <material name="alpha-Methyl styrene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.1455E-07 * tx^(0.49832) / (1 + 303.31/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.21276 * tx^(-0.022299) / (1 -194.68/tx + 1708700.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "846.2822729207443 + 2245.554712178561*((771.76/tx)/sinh(771.76/tx)) + 944.5258204520896*((2405.2/tx)/cosh(2405.2/tx))"</parameter> 
+  </material>
+
+  <material name="2-Hexanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.0652E-07 * tx^(0.77022) / (1 + 105.85/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00018361 * tx^(0.97199) / (1 + 677.05/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1234.64643993149 + 3519.8434059212136*((1844.5/tx)/sinh(1844.5/tx)) + 2538.7815023244434*((819.17/tx)/cosh(819.17/tx))"</parameter> 
+  </material>
+
+  <material name="2-Propanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.2003E-06 * tx^(0.494) / (1 + 479.78/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "7.3907E-07 * tx^(1.7419)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1217.1561693984524 + 3380.148098843498*((1937.5/tx)/sinh(1937.5/tx)) + 2465.2633330559947*((843.37/tx)/cosh(843.37/tx))"</parameter> 
+  </material>
+
+  <material name="Dipropyl amine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.29E-07 * tx^(0.744) / (1 + 117.03/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0001123 * tx^(0.9958) / (1 + 183.2/tx + 98000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1197.1538689593833 + 2581.9745034094276*((789.5600000000001/tx)/sinh(789.5600000000001/tx)) + 1670.4219784563693*((2394.4/tx)/cosh(2394.4/tx))"</parameter> 
+  </material>
+
+  <material name="Butyraldehyde (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.22E-05 * tx^(0.10118) / (1 + 2840.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "9.9652E-07 * tx^(1.6558)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1237.6271951795225 + 2173.8913362213148*((901.9000000000001/tx)/sinh(901.9000000000001/tx)) + 1523.3188157610796*((2566.0/tx)/cosh(2566.0/tx))"</parameter> 
+  </material>
+
+  <material name="Nonadecane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.0465E-07 * tx^(0.62218) / (1 + 705.34/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "4.9571E-05 * tx^(1.2652) / (1 + 3332.3/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1156.7814646830097 + 3938.240933945924*((767.91/tx)/sinh(767.91/tx)) -1700.4635393371614*((912.03/tx)/cosh(912.03/tx))"</parameter> 
+  </material>
+
+  <material name="Diethanol amine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.3628E-08 * tx^(0.9426) / (1 + 39.587/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-11633.0 * tx^(0.4621) / (1 -3793900000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1148.9919117817708 + 2916.23278271764*((2089.0/tx)/sinh(2089.0/tx)) + 2228.549709689312*((891.0/tx)/cosh(891.0/tx))"</parameter> 
+  </material>
+
+  <material name="Pentane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.3412E-08 * tx^(0.84758) / (1 + 41.718/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-684.4 * tx^(0.764) / (1 -1055000000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1220.3948562955604 + 4173.320740835812*((1650.1999999999998/tx)/sinh(1650.1999999999998/tx)) + 2622.358964351164*((747.6/tx)/cosh(747.6/tx))"</parameter> 
+  </material>
+
+  <material name="Hydrazine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.3489E-07 * tx^(0.7151) / (1 + 205.05/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00043196 * tx^(0.86603) / (1 + 641.48/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1302.19352938166 + 1706.529160721931*((811.3000000000001/tx)/sinh(811.3000000000001/tx)) + 1303.0048843569512*((2639.2/tx)/cosh(2639.2/tx))"</parameter> 
+  </material>
+
+  <material name="1,3,5-Trinitrobenzene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.4066E-08 * tx^(0.95252) / (1 + 43.528/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00020544 * tx^(0.87137) / (1 + 807.3/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "955.728203230978 + 853.1494310866799*((1208.9/tx)/sinh(1208.9/tx)) + 374.35620793026817*((1060.8/tx)/cosh(1060.8/tx))"</parameter> 
+  </material>
+
+  <material name="1,3-Butadiene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.696E-07 * tx^(0.6715) / (1 + 134.7/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-20890.0 * tx^(0.9593) / (1 -93820000000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "941.9409418743866 + 3152.1281764393116*((1532.4/tx)/sinh(1532.4/tx)) + 2471.7861418764574*((685.6/tx)/cosh(685.6/tx))"</parameter> 
+  </material>
+
+  <material name="Oxygen (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.101E-06 * tx^(0.5634) / (1 + 96.3/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00044994 * tx^(0.7456) / (1 + 56.699/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "909.5028563571134 + 313.7617660662275*((2526.5/tx)/sinh(2526.5/tx)) + 292.3859644736678*((1153.8/tx)/cosh(1153.8/tx))"</parameter> 
+  </material>
+
+  <material name="Methyl butyrate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.733E-07 * tx^(0.6177) / (1 + 256.5/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1333.1 * tx^(0.9962) / (1 + 12317000000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "875.3403693466378 + 2849.2622760612035*((1570.0/tx)/sinh(1570.0/tx)) + 2029.7321987198882*((678.3/tx)/cosh(678.3/tx))"</parameter> 
+  </material>
+
+  <material name="Fluoromethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.9346E-08 * tx^(1.0027)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "4.8998E-05 * tx^(1.0175)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1034.0869957676275 + 1920.0233185985805*((1133.3/tx)/sinh(1133.3/tx)) + 447.8017166907806*((5316.2/tx)/cosh(5316.2/tx))"</parameter> 
+  </material>
+
+  <material name="Methyl propionate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.5642E-07 * tx^(0.6327) / (1 + 232.2/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-200.9 * tx^(-0.1321) / (1 + 104000.0/tx -846000000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "881.3335706256345 + 2771.6890913944617*((1714.0/tx)/sinh(1714.0/tx)) + 2063.444213003739*((716.0/tx)/cosh(716.0/tx))"</parameter> 
+  </material>
+
+  <material name="trans-2-Methylcyclohexanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2E-07 * tx^(0.704) / (1 + 187.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.075448 * tx^(0.155) / (1 + 218.44/tx + 1252500.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "808.150179541248 + 2339.0894077056746*((687.84/tx)/sinh(687.84/tx)) + 1738.1372374381115*((1732.4/tx)/cosh(1732.4/tx))"</parameter> 
+  </material>
+
+  <material name="Isobutyric acid (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.1202E-07 * tx^(0.7822) / (1 + 100.3/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.000214 * tx^(0.9248) / (1 + 698.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "847.7827395275099 + 2764.425041359685*((1715.0/tx)/sinh(1715.0/tx)) + 2097.948450668928*((757.75/tx)/cosh(757.75/tx))"</parameter> 
+  </material>
+
+  <material name="Nonyl mercaptan (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.8673E-08 * tx^(0.91142) / (1 + 50.646/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.047041 * tx^(0.29733) / (1 + 2460.6/tx + 1367200.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1100.672966147102 + 3146.205622376732*((1618.2/tx)/sinh(1618.2/tx)) + 2111.8375050913764*((755.48/tx)/cosh(755.48/tx))"</parameter> 
+  </material>
+
+  <material name="Carbon tetrafluoride (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.1709E-06 * tx^(0.45853) / (1 + 208.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "9.2004E-05 * tx^(1.0164) / (1 + 270.83/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1045.448915564353 + 186.87723213524794*((1076.4/tx)/sinh(1076.4/tx)) -5776763.180890025*((2.3486/tx)/cosh(2.3486/tx))"</parameter> 
+  </material>
+
+  <material name="Cyclohexanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.9581E-08 * tx^(0.8376) / (1 + 104.97/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0032207 * tx^(0.5991) / (1 + 608.69/tx + 509290.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "902.8655272503047 + 2573.011998536725*((788.2/tx)/sinh(788.2/tx)) + 1304.7270496634947*((1952.2/tx)/cosh(1952.2/tx))"</parameter> 
+  </material>
+
+  <material name="Acetone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.1005E-08 * tx^(0.9762) / (1 + 23.139/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-26.8 * tx^(0.9098) / (1 + 126500000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "982.1082061476806 + 2809.9589628909794*((1607.0/tx)/sinh(1607.0/tx)) + 1666.691345636316*((731.5/tx)/cosh(731.5/tx))"</parameter> 
+  </material>
+
+  <material name="1-Decene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.1192E-08 * tx^(0.82546) / (1 + 77.434/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.7232E-05 * tx^(1.257) / (1 + 751.7/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1219.185289642949 + 3713.5923368347803*((1726.5/tx)/sinh(1726.5/tx)) + 2561.921722900379*((782.92/tx)/cosh(782.92/tx))"</parameter> 
+  </material>
+
+  <material name="Methylisopropyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.925E-07 * tx^(0.7091) / (1 + 109.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.1191 * tx^(-0.19015) / (1 + 1453.4/tx + 3575500.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1203.85960367828 + 3341.1313301385835*((1696.0/tx)/sinh(1696.0/tx)) + 2104.3798299011355*((791.4/tx)/cosh(791.4/tx))"</parameter> 
+  </material>
+
+  <material name="Acetonitrile (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.7754E-07 * tx^(0.60273) / (1 + 327.16/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "8.3653E-07 * tx^(1.6481)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1080.2423273953214 + 2062.0239258109855*((1639.8/tx)/sinh(1639.8/tx)) + 1205.4740462682603*((761.47/tx)/cosh(761.47/tx))"</parameter> 
+  </material>
+
+  <material name="p-Dichlorobenzene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.5913E-07 * tx^(0.7639) / (1 + 193.14/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-1520.8 * tx^(0.754) / (1 -4332800000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "474.68754838370864 + 1413.5865943556125*((1363.5/tx)/sinh(1363.5/tx)) + 1086.0399412361578*((619.37/tx)/cosh(619.37/tx))"</parameter> 
+  </material>
+
+  <material name="Cyclopentane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.3619E-07 * tx^(0.67465) / (1 + 139.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "9.5461E-06 * tx^(1.4641) / (1 + 632.62/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "593.1595584953709 + 4297.555070444827*((1461.7/tx)/sinh(1461.7/tx)) + 2580.101493022533*((668.8/tx)/cosh(668.8/tx))"</parameter> 
+  </material>
+
+  <material name="2-Hexyne (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.5562E-07 * tx^(0.5337) / (1 + 244.38/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.1631E-05 * tx^(1.2753) / (1 -202.84/tx + 122990.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1261.2059856154344 + 3663.0973076417395*((2116.0/tx)/sinh(2116.0/tx)) + 2563.802901260719*((902.4/tx)/cosh(902.4/tx))"</parameter> 
+  </material>
+
+  <material name="Dimethyl disulfide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.2282E-08 * tx^(0.97742)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00022578 * tx^(0.892) / (1 + 697.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "832.5987186281304 + 1524.856304268069*((1583.6/tx)/sinh(1583.6/tx)) + 924.637873167285*((730.65/tx)/cosh(730.65/tx))"</parameter> 
+  </material>
+
+  <material name="trans-1,2-Dimethylcyclohexane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "9.9104E-07 * tx^(0.4723) / (1 + 436.89/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.012144 * tx^(0.3854) / (1 + 52.191/tx + 803590.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "979.4796735911392 + 4135.09565410813*((1667.8999999999999/tx)/sinh(1667.8999999999999/tx)) + 3006.434925691081*((781.97/tx)/cosh(781.97/tx))"</parameter> 
+  </material>
+
+  <material name="Fluorobenzene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.1174E-07 * tx^(0.7087) / (1 + 157.42/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "5.3432E-05 * tx^(1.1576) / (1 + 760.75/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "763.6965770452003 + 2470.180131957545*((2308.6000000000004/tx)/sinh(2308.6000000000004/tx)) + 2558.627543902611*((906.45/tx)/cosh(906.45/tx))"</parameter> 
+  </material>
+
+  <material name="Cyclopentene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.026E-07 * tx^(0.64991) / (1 + 167.14/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0010949 * tx^(0.71644) / (1 + 175.55/tx + 346040.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "705.7560650774212 + 3693.49686759638*((1580.3/tx)/sinh(1580.3/tx)) + 2562.3551940469506*((718.37/tx)/cosh(718.37/tx))"</parameter> 
+  </material>
+
+  <material name="1-Undecanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.9537E-08 * tx^(0.81842) / (1 + 90.245/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2498.8 * tx^(0.95209) / (1 + 20167000000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1078.8841308622032 + 3406.1167100754546*((1571.8000000000002/tx)/sinh(1571.8000000000002/tx)) + 2510.6254707422754*((722.7/tx)/cosh(722.7/tx))"</parameter> 
+  </material>
+
+  <material name="Styrene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.3863E-07 * tx^(0.5254) / (1 + 295.1/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.010048 * tx^(0.4033) / (1 + 553.74/tx + 685570.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "857.4244314306256 + 2064.635783768504*((772.0/tx)/sinh(772.0/tx)) + 959.2015755870045*((2442.0/tx)/cosh(2442.0/tx))"</parameter> 
+  </material>
+
+  <material name="Ethyl formate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.761E-07 * tx^(0.5804) / (1 + 354.9/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "508.0 * tx^(0.9023) / (1 + 2170000000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "724.9062953994503 + 2545.9465048852203*((1207.0/tx)/sinh(1207.0/tx)) + 1166.3296819834732*((496.0/tx)/cosh(496.0/tx))"</parameter> 
+  </material>
+
+  <material name="Diisopropyl ketone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "9.2797E-08 * tx^(0.7819) / (1 + 93.399/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-8.5357 * tx^(-0.0056423) / (1 + 1882.1/tx -65622000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "951.8725063593911 + 3550.3644684708543*((1780.2/tx)/sinh(1780.2/tx)) + 2608.5632969381563*((791.6/tx)/cosh(791.6/tx))"</parameter> 
+  </material>
+
+  <material name="Methyl acetate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.3226E-06 * tx^(0.4885) / (1 + 504.3/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-25343.0 * tx^(-0.1934) / (1 + 11164000.0/tx -67259000000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "749.2048304407728 + 2405.5549690909133*((1260.0/tx)/sinh(1260.0/tx)) + 1151.4805772359985*((562.0/tx)/cosh(562.0/tx))"</parameter> 
+  </material>
+
+  <material name="m-Xylene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.8293E-07 * tx^(0.52199) / (1 + 324.17/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "3.0593E-09 * tx^(2.4182) / (1 -569.28/tx + 121060.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "712.8526350492158 + 3195.403381528752*((1496.0/tx)/sinh(1496.0/tx)) + 2116.5167428060095*((675.9/tx)/cosh(675.9/tx))"</parameter> 
+  </material>
+
+  <material name="Butane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.4387E-08 * tx^(0.94604)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.051094 * tx^(0.45253) / (1 + 5455.5/tx + 1979800.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1379.059980523793 + 2794.4571953573677*((841.49/tx)/sinh(841.49/tx)) + 1819.4424849713193*((2476.1/tx)/cosh(2476.1/tx))"</parameter> 
+  </material>
+
+  <material name="Succinic acid (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.7821E-05 * tx^(0.099467) / (1 + 4409.6/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "5.5263E-06 * tx^(1.344)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "608.0717403726914 + 1919.6694263026127*((1273.9/tx)/sinh(1273.9/tx)) + 1468.5653178763912*((537.65/tx)/cosh(537.65/tx))"</parameter> 
+  </material>
+
+  <material name="1,1-Dibromoethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.4125E-07 * tx^(0.8097) / (1 + 83.243/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00021231 * tx^(0.8052) / (1 + 649.51/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "354.6342415856476 + 434.91161238438*((762.85/tx)/sinh(762.85/tx)) + 217.93222186001617*((2488.3/tx)/cosh(2488.3/tx))"</parameter> 
+  </material>
+
+  <material name="2-Methyl-2-butene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.5423E-07 * tx^(0.47389) / (1 + 239.34/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00021736 * tx^(0.9171) / (1 + 112.3/tx + 177690.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1168.1250882253548 + 3712.6655250246313*((1759.3000000000002/tx)/sinh(1759.3000000000002/tx)) + 2451.7737039249764*((800.93/tx)/cosh(800.93/tx))"</parameter> 
+  </material>
+
+  <material name="cis-2-Butene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.2898E-08 * tx^(0.91349)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "6.7737E-05 * tx^(1.0709) / (1 -65.881/tx + 129390.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1160.671382475272 + 2553.188303920129*((857.9599999999999/tx)/sinh(857.9599999999999/tx)) + 1597.8235606969056*((2477.2/tx)/cosh(2477.2/tx))"</parameter> 
+  </material>
+
+  <material name="Acetamide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.423E-07 * tx^(0.7574) / (1 + 272.14/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00013195 * tx^(0.97) / (1 + 728.3/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "579.0015440041174 + 2190.725140179321*((1075.0/tx)/sinh(1075.0/tx)) + 1083.5116612942547*((502.0/tx)/cosh(502.0/tx))"</parameter> 
+  </material>
+
+  <material name="sec-Butyl mercaptan (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.1378E-08 * tx^(0.96513)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.9719 * tx^(-0.111) / (1 + 1167.2/tx + 3163200.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1024.1697269679066 + 2790.418152465095*((1610.9/tx)/sinh(1610.9/tx)) + 1734.2815831958414*((739.2/tx)/cosh(739.2/tx))"</parameter> 
+  </material>
+
+  <material name="Difluoromethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.7484E-07 * tx^(0.57978) / (1 + 198.7/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.3015E-05 * tx^(1.1897)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "721.5984963686526 + 1028.575800231396*((866.87/tx)/sinh(866.87/tx)) + 442.07038410991674*((2437.2/tx)/cosh(2437.2/tx))"</parameter> 
+  </material>
+
+  <material name="Ethyl benzoate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.3441E-08 * tx^(0.8369) / (1 + 73.63/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.012E-05 * tx^(1.1513) / (1 -89.583/tx + 125410.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "728.7522182527659 + 2783.029076174717*((883.75/tx)/sinh(883.75/tx)) -1071.420247778418*((1183.1/tx)/cosh(1183.1/tx))"</parameter> 
+  </material>
+
+  <material name="Phenanthrene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.3478E-07 * tx^(0.5272) / (1 + 238.27/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00010167 * tx^(0.988) / (1 + 797.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "713.6877683342573 + 2002.4216009497884*((750.21/tx)/sinh(750.21/tx)) + 746.1740276004157*((2409.4/tx)/cosh(2409.4/tx))"</parameter> 
+  </material>
+
+  <material name="Propyl acetate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.1372E-07 * tx^(0.6894) / (1 + 178.57/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1325.3 * tx^(1.0) / (1 + 12235000000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1761.84279709434 + 1716.4112611461476*((1196.0/tx)/sinh(1196.0/tx)) -4034.00707126191*((108.2/tx)/cosh(108.2/tx))"</parameter> 
+  </material>
+
+  <material name="1-Butyne (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.7856E-06 * tx^(0.377) / (1 + 663.14/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "3.7269E-05 * tx^(1.1427) / (1 -43.844/tx + 79421.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1229.2745261454704 + 1982.975180087276*((793.9000000000001/tx)/sinh(793.9000000000001/tx)) + 1372.5161045094105*((-2458.4/tx)/cosh(-2458.4/tx))"</parameter> 
+  </material>
+
+  <material name="Pentanal (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.33E-05 * tx^(0.098676) / (1 + 3090.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.13E-06 * tx^(1.6323)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1230.6649189676812 + 3308.8632255263124*((1930.0/tx)/sinh(1930.0/tx)) + 2333.6193274764514*((879.23/tx)/cosh(879.23/tx))"</parameter> 
+  </material>
+
+  <material name="Acrylonitrile (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.491E-08 * tx^(0.98882)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-0.000861 * tx^(0.77281) / (1 -2555.2/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1061.067493865736 + 2067.746397651076*((912.4799999999999/tx)/sinh(912.4799999999999/tx)) -830.5284701465815*((1178.4/tx)/cosh(1178.4/tx))"</parameter> 
+  </material>
+
+  <material name="Diethyl amine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.3184E-07 * tx^(0.6035) / (1 + 247.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.706E-05 * tx^(1.248) / (1 -112.8/tx + 77960.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1244.5164434230408 + 3656.1601512999464*((1719.0/tx)/sinh(1719.0/tx)) + 2451.0219473523875*((794.94/tx)/cosh(794.94/tx))"</parameter> 
+  </material>
+
+  <material name="Cyclobutane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.0881E-06 * tx^(0.48359) / (1 + 330.86/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-449910.0 * tx^(0.27364) / (1 -10001000000.0/tx -9865400000000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "906.0476609408709 + 2938.5281372936242*((828.4899999999999/tx)/sinh(828.4899999999999/tx)) + 1544.531881613337*((2472.4/tx)/cosh(2472.4/tx))"</parameter> 
+  </material>
+
+  <material name="Ethylisopropyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.3974E-07 * tx^(0.74266) / (1 + 98.58/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00021652 * tx^(0.94192) / (1 + 632.16/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1242.5667778960383 + 3406.990365541297*((1798.8/tx)/sinh(1798.8/tx)) + 2417.633580182824*((817.35/tx)/cosh(817.35/tx))"</parameter> 
+  </material>
+
+  <material name="2-Methyl-1-butene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.0602E-07 * tx^(0.55258) / (1 + 199.82/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00019098 * tx^(0.9341) / (1 + 84.07/tx + 155720.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1240.8726860004363 + 3643.9388646412735*((1775.7/tx)/sinh(1775.7/tx)) + 2514.654320582779*((807.82/tx)/cosh(807.82/tx))"</parameter> 
+  </material>
+
+  <material name="Cyclohexanone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.2312E-08 * tx^(0.89422) / (1 + 58.008/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-1095.5 * tx^(-0.023408) / (1 + 498780.0/tx -7835500000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "874.845888142812 + 2626.4736150311282*((848.9499999999999/tx)/sinh(848.9499999999999/tx)) + 792.5170414599105*((2401.5/tx)/cosh(2401.5/tx))"</parameter> 
+  </material>
+
+  <material name="2-Heptanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.4649E-05 * tx^(0.10705) / (1 + 2900.7/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00018818 * tx^(0.96338) / (1 + 696.02/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1213.9274813870477 + 2483.448125469121*((803.9399999999999/tx)/sinh(803.9399999999999/tx)) + 1288.1090699986764*((2456.1/tx)/cosh(2456.1/tx))"</parameter> 
+  </material>
+
+  <material name="Propylbenzene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.0387E-07 * tx^(0.61945) / (1 + 210.35/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.16992 * tx^(0.021288) / (1 -54.484/tx + 1624800.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "943.9929153107064 + 2337.7677537810882*((795.04/tx)/sinh(795.04/tx)) + 1029.6894341517102*((2449.5/tx)/cosh(2449.5/tx))"</parameter> 
+  </material>
+
+  <material name="2-Hexanone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "9.782E-08 * tx^(0.7772) / (1 + 99.53/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-1.2158 * tx^(0.026637) / (1 -1711.6/tx -13176000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1092.2646099876517 + 1804.1335925481596*((689.0/tx)/sinh(689.0/tx)) + 1471.6618236945142*((1772.0/tx)/cosh(1772.0/tx))"</parameter> 
+  </material>
+
+  <material name="p-Xylene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "9.3485E-07 * tx^(0.47683) / (1 + 371.96/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "9.9305E-08 * tx^(1.9229) / (1 -469.93/tx + 113460.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "707.5778269674563 + 3199.7362595959116*((1492.8/tx)/sinh(1492.8/tx)) + 2116.5167428060095*((675.1/tx)/cosh(675.1/tx))"</parameter> 
+  </material>
+
+  <material name="2,3,3-Trimethylpentane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.2418E-07 * tx^(0.4931) / (1 + 371.44/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.0248E-05 * tx^(1.2284) / (1 -174.72/tx + 147800.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "859.6802269695869 + 4729.116686445732*((1531.0/tx)/sinh(1531.0/tx)) + 3057.905328721759*((639.9/tx)/cosh(639.9/tx))"</parameter> 
+  </material>
+
+  <material name="Dimethyl sulfoxide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.6101E-08 * tx^(0.8345) / (1 + 167.86/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00064761 * tx^(0.7716) / (1 + 1013.3/tx + 82563.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "889.3759189407251 + 1950.5092825811844*((1651.4/tx)/sinh(1651.4/tx)) + 1364.0766360728521*((722.2/tx)/cosh(722.2/tx))"</parameter> 
+  </material>
+
+  <material name="Furan (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.432E-07 * tx^(0.5854) / (1 + 325.3/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-644950.0 * tx^(0.2862) / (1 -16794000000.0/tx -17372000000000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "641.5522176174267 + 1886.036892814815*((746.99/tx)/sinh(746.99/tx)) + 698.3727698520844*((2500.6/tx)/cosh(2500.6/tx))"</parameter> 
+  </material>
+
+  <material name="1,2-Propylene glycol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.543E-08 * tx^(0.9173) / (1 + 61.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0001666 * tx^(0.9765) / (1 + 706.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "2643.2950011314892 + 1062.1015312292282*((1865.6/tx)/sinh(1865.6/tx)) -3207.0682712346056*((279.98/tx)/cosh(279.98/tx))"</parameter> 
+  </material>
+
+  <material name="Butyronitrile (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.8178E-05 * tx^(0.17513) / (1 + 2110.6/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.3751E-06 * tx^(1.5786)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1188.6532253046448 + 1915.0540264032613*((840.21/tx)/sinh(840.21/tx)) + 983.0244077499347*((2313.7/tx)/cosh(2313.7/tx))"</parameter> 
+  </material>
+
+  <material name="2-Methyl propene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "9.0981E-07 * tx^(0.49288) / (1 + 260.08/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-488.1 * tx^(0.8877) / (1 -1448500000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1305.1292617302295 + 2425.038747862986*((848.72/tx)/sinh(848.72/tx)) + 1580.3388994323634*((2499.8/tx)/cosh(2499.8/tx))"</parameter> 
+  </material>
+
+  <material name="Argon (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "9.2121E-07 * tx^(0.60529) / (1 + 83.24/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.000633 * tx^(0.6221) / (1 + 70.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "520.3264243516571 "</parameter> 
+  </material>
+
+  <material name="Propenylcyclohexene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.4749E-07 * tx^(0.53893) / (1 + 283.52/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00010242 * tx^(1.0486) / (1 + 701.56/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "864.3498522921595 + 3551.0925437776054*((1609.8/tx)/sinh(1609.8/tx)) + 2602.95075276092*((729.66/tx)/cosh(729.66/tx))"</parameter> 
+  </material>
+
+  <material name="Nonane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.0344E-07 * tx^(0.77301) / (1 + 220.47/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-0.065771 * tx^(0.27198) / (1 -3482.3/tx -1580300.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1183.188816663041 + 3832.2062826351544*((1644.8/tx)/sinh(1644.8/tx)) + 2705.5454325013197*((749.6/tx)/cosh(749.6/tx))"</parameter> 
+  </material>
+
+  <material name="Methyl vinyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.646E-07 * tx^(0.5476) / (1 + 284.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00032359 * tx^(0.8892) / (1 + 623.22/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1047.9666193404378 + 2748.8354682937797*((1619.0/tx)/sinh(1619.0/tx)) + 1614.7449841715975*((739.55/tx)/cosh(739.55/tx))"</parameter> 
+  </material>
+
+  <material name="Diphenyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.8451E-08 * tx^(0.93622)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00014629 * tx^(0.9377) / (1 + 745.89/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "645.3898542482339 + 2550.538402605765*((1622.2/tx)/sinh(1622.2/tx)) + 2141.8012869020818*((743.62/tx)/cosh(743.62/tx))"</parameter> 
+  </material>
+
+  <material name="Ethylenediamine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.3744E-07 * tx^(0.7557) / (1 + 122.8/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.1655 * tx^(0.1798) / (1 + 3827.9/tx + 1600000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1212.3467012056244 + 3067.6398275359443*((1688.0/tx)/sinh(1688.0/tx)) + 1995.0640883139495*((767.3/tx)/cosh(767.3/tx))"</parameter> 
+  </material>
+
+  <material name="2-Heptanone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.8629E-08 * tx^(0.78376) / (1 + 100.18/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2049.3 * tx^(1.0323) / (1 + 22983000000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1095.323345021336 + 1881.150191977157*((691.2/tx)/sinh(691.2/tx)) + 1417.8687899492631*((1759.3/tx)/cosh(1759.3/tx))"</parameter> 
+  </material>
+
+  <material name="2,2,3,3-Tetramethylbutane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.1458E-07 * tx^(0.50257) / (1 + 380.29/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.5235E-05 * tx^(1.2816) / (1 -111.88/tx + 124120.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "993.7973458817465 + 4931.430434360876*((1621.1/tx)/sinh(1621.1/tx)) + 2961.5195924800564*((681.9/tx)/cosh(681.9/tx))"</parameter> 
+  </material>
+
+  <material name="1,1-Dichloropropane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.4906E-07 * tx^(0.7617) / (1 + 105.9/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "5.7603E-05 * tx^(1.1148) / (1 + 849.98/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "632.3806880408093 + 1535.0609731812174*((1524.0/tx)/sinh(1524.0/tx)) + 1082.4374828186283*((674.2/tx)/cosh(674.2/tx))"</parameter> 
+  </material>
+
+  <material name="Ethyltrichlorosilane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.6635E-05 * tx^(0.15779) / (1 + 2173.5/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.7142E-06 * tx^(1.4281)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "593.2075887123408 + 665.2966863601337*((704.6700000000001/tx)/sinh(704.6700000000001/tx)) + 339.7795799542525*((2089.7/tx)/cosh(2089.7/tx))"</parameter> 
+  </material>
+
+  <material name="Methane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.2546E-07 * tx^(0.59006) / (1 + 105.67/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "8.3983E-06 * tx^(1.4268) / (1 -49.654/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "2075.6116565373227 + 4982.577528440081*((2086.9/tx)/sinh(2086.9/tx)) + 2593.236714975845*((991.96/tx)/cosh(991.96/tx))"</parameter> 
+  </material>
+
+  <material name="Methyldichlorosilane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.977E-07 * tx^(0.7453) / (1 + 131.22/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00041077 * tx^(0.75688) / (1 + 591.5/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "633.1173855094618 + 895.9962779686973*((1542.8999999999999/tx)/sinh(1542.8999999999999/tx)) + 679.0168746690108*((668.94/tx)/cosh(668.94/tx))"</parameter> 
+  </material>
+
+  <material name="1,1,2-Trichloroethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.7081E-07 * tx^(0.6955) / (1 + 187.93/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "9.52E-05 * tx^(1.0423) / (1 + 1243.3/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "498.8897652563015 + 843.8263797052296*((1545.4/tx)/sinh(1545.4/tx)) + 728.5826490346407*((717.04/tx)/cosh(717.04/tx))"</parameter> 
+  </material>
+
+  <material name="Methacrylic acid (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "9.113E-08 * tx^(0.8222) / (1 + 93.57/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00019847 * tx^(0.9284) / (1 + 678.69/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "842.2655374818037 + 2426.551796716988*((1851.6/tx)/sinh(1851.6/tx)) + 1914.641132852375*((798.43/tx)/cosh(798.43/tx))"</parameter> 
+  </material>
+
+  <material name="Diisopropyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.691E-07 * tx^(0.7114) / (1 + 124.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00019879 * tx^(0.9423) / (1 + 306.8/tx + 106230.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1069.7358134239805 + 3604.608417969369*((1605.6999999999998/tx)/sinh(1605.6999999999998/tx)) + 2292.1512122954828*((699.0/tx)/cosh(699.0/tx))"</parameter> 
+  </material>
+
+  <material name="3-Heptanone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.9656E-08 * tx^(0.78236) / (1 + 100.14/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1348.6 * tx^(1.0313) / (1 + 14832000000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1118.180896236701 + 2960.9724390478436*((1383.1/tx)/sinh(1383.1/tx)) + 1653.4504480693074*((650.3/tx)/cosh(650.3/tx))"</parameter> 
+  </material>
+
+  <material name="1,2,3-Trimethylbenzene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.8498E-07 * tx^(0.49855) / (1 + 362.79/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "9.8408E-05 * tx^(1.0452) / (1 + 720.49/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "875.2692992304452 + 3153.2990913340186*((1481.4/tx)/sinh(1481.4/tx)) + 1939.403741926015*((667.3/tx)/cosh(667.3/tx))"</parameter> 
+  </material>
+
+  <material name="Chloroethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.5554E-08 * tx^(0.98455)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "4.91778E-07 * tx^(1.70639) / (1 -232.008/tx + 46603.4/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "815.1706371165374 + 2173.1683461444863*((2037.0/tx)/sinh(2037.0/tx)) + 1547.2586612848975*((861.18/tx)/cosh(861.18/tx))"</parameter> 
+  </material>
+
+  <material name="Methyl tert-butyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.5779E-07 * tx^(0.73224) / (1 + 112.15/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0002084 * tx^(0.93034) / (1 + 364.832/tx + 73041.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1112.4333792408693 + 3504.7794509700707*((1645.6/tx)/sinh(1645.6/tx)) + 2380.649860121931*((732.6/tx)/cosh(732.6/tx))"</parameter> 
+  </material>
+
+  <material name="Water (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.7096E-08 * tx^(1.1146)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "6.2041E-06 * tx^(1.3973)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1851.927918966566 + 1487.0709753054075*((2610.5/tx)/sinh(2610.5/tx)) + 493.80303830970155*((1169.0/tx)/cosh(1169.0/tx))"</parameter> 
+  </material>
+
+  <material name="Dimethyl sulfide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.2854E-07 * tx^(0.6112) / (1 + 302.85/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00023614 * tx^(0.9204) / (1 + 638.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "971.6097466765378 + 2212.476260984324*((1641.0/tx)/sinh(1641.0/tx)) + 1285.6085235136961*((743.5/tx)/cosh(743.5/tx))"</parameter> 
+  </material>
+
+  <material name="3-Hexyne (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.2127E-07 * tx^(0.5444) / (1 + 237.01/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "6.9682E-06 * tx^(1.347) / (1 -214.35/tx + 110480.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1141.415764587868 + 3670.401589411713*((1905.7/tx)/sinh(1905.7/tx)) + 2417.7172658612476*((817.0/tx)/cosh(817.0/tx))"</parameter> 
+  </material>
+
+  <material name="1-Heptyne (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.9501E-07 * tx^(0.52758) / (1 + 274.02/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "6.0732E-05 * tx^(1.0586) / (1 -102.79/tx + 143140.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1113.858786580206 + 3146.2975321456192*((1527.3000000000002/tx)/sinh(1527.3000000000002/tx)) + 2181.02950415607*((689.62/tx)/cosh(689.62/tx))"</parameter> 
+  </material>
+
+  <material name="Heptadecane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.1338E-07 * tx^(0.6238) / (1 + 692.2/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-114.41 * tx^(1.0566) / (1 -2211400000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1159.3239076476536 + 3960.905525206832*((1693.5/tx)/sinh(1693.5/tx)) + 2771.7231425720556*((744.57/tx)/cosh(744.57/tx))"</parameter> 
+  </material>
+
+  <material name="Methylpropyl sulfide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.8223E-08 * tx^(0.88057) / (1 + 48.298/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0023574 * tx^(0.67434) / (1 + 1804.1/tx + 155660.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1039.7816985115403 + 2902.6291979349617*((1729.1000000000001/tx)/sinh(1729.1000000000001/tx)) + 1800.2554686252595*((783.23/tx)/cosh(783.23/tx))"</parameter> 
+  </material>
+
+  <material name="1,4-Dioxane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.7334E-07 * tx^(0.7393) / (1 + 129.93/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "6.4032E-07 * tx^(1.7194)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "776.8447509066442 + 2247.5424810726095*((827.9300000000001/tx)/sinh(827.9300000000001/tx)) + 1030.9276010293158*((2447.1/tx)/cosh(2447.1/tx))"</parameter> 
+  </material>
+
+  <material name="Sulfur hexafluoride (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.3986E-07 * tx^(0.6349) / (1 + 34.5/tx + 19000.0/(tx^2))"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00048883 * tx^(0.6518) / (1 -117.08/tx + 78863.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "241.387825204366 + 840.0920737626421*((679.38/tx)/sinh(679.38/tx)) + 536.8304745518132*((351.27/tx)/cosh(351.27/tx))"</parameter> 
+  </material>
+
+  <material name="Propyl formate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.0741E-07 * tx^(0.5863) / (1 + 367.29/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "740.1 * tx^(0.9732) / (1 + 5646000000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "988.5918094203832 + 2777.364130484131*((1925.4/tx)/sinh(1925.4/tx)) + 2142.894760259109*((821.3/tx)/cosh(821.3/tx))"</parameter> 
+  </material>
+
+  <material name="Methylisopropyl sulfide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.6077E-08 * tx^(0.81669) / (1 + 71.294/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0071536 * tx^(0.53907) / (1 + 2700.7/tx + 241730.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1100.4554970106622 + 3024.2650841804602*((2003.0/tx)/sinh(2003.0/tx)) + 2103.8462220802953*((849.64/tx)/cosh(849.64/tx))"</parameter> 
+  </material>
+
+  <material name="Methylisobutyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.5035E-07 * tx^(0.7338) / (1 + 108.5/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00020053 * tx^(0.95381) / (1 + 644.42/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "826.3358358618409 + 3597.6919773045797*((1352.0/tx)/sinh(1352.0/tx)) + 2149.5622484775067*((585.14/tx)/cosh(585.14/tx))"</parameter> 
+  </material>
+
+  <material name="Dimethyl acetylene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.9377E-06 * tx^(0.4093) / (1 + 492.69/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00021761 * tx^(0.9187) / (1 + 217.0/tx + 132070.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1207.9768624548071 + 2991.1015698892447*((1783.7/tx)/sinh(1783.7/tx)) + 1893.495412498031*((821.4/tx)/cosh(821.4/tx))"</parameter> 
+  </material>
+
+  <material name="Ethylcyclohexane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.107E-07 * tx^(0.57143) / (1 + 230.06/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "7.48E-05 * tx^(1.1103) / (1 + 686.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "985.5395969651905 + 4126.629584688499*((1662.8/tx)/sinh(1662.8/tx)) + 2939.9540016169303*((781.1/tx)/cosh(781.1/tx))"</parameter> 
+  </material>
+
+  <material name="Methyl benzoate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.4106E-08 * tx^(0.82436) / (1 + 83.086/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.3963E-05 * tx^(1.1308) / (1 -67.272/tx + 125720.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "690.1317331913701 + 1879.573334649549*((825.0/tx)/sinh(825.0/tx)) + 998.9135346320385*((3000.0/tx)/cosh(3000.0/tx))"</parameter> 
+  </material>
+
+  <material name="Ethylbenzene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.2231E-07 * tx^(0.58154) / (1 + 239.21/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.7537E-05 * tx^(1.3144) / (1 + 560.65/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "738.8499034521734 + 3201.620119625112*((1559.0/tx)/sinh(1559.0/tx)) + 2285.1222154193943*((702.0/tx)/cosh(702.0/tx))"</parameter> 
+  </material>
+
+  <material name="Hydrogen sulfide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.9314E-08 * tx^(1.0134)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.381E-07 * tx^(1.8379) / (1 -352.09/tx + 46041.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "976.7353425146299 + 765.4145080760824*((913.4/tx)/sinh(913.4/tx)) -527.5391949973123*((949.4/tx)/cosh(949.4/tx))"</parameter> 
+  </material>
+
+  <material name="Propane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.9054E-08 * tx^(0.90125)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-1.12 * tx^(0.10972) / (1 -9834.6/tx -7535800.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1348.7507376016033 + 2871.2602294740386*((844.3100000000001/tx)/sinh(844.3100000000001/tx)) + 1954.0489508935357*((2482.7/tx)/cosh(2482.7/tx))"</parameter> 
+  </material>
+
+  <material name="Ethylene glycol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.6706E-08 * tx^(0.83923) / (1 + 75.512/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-8145800.0 * tx^(-0.30502) / (1 + 1832500000.0/tx -11842000000000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1015.2117425062642 + 2349.6870521029896*((1673.0/tx)/sinh(1673.0/tx)) + 1567.5750920283356*((773.65/tx)/cosh(773.65/tx))"</parameter> 
+  </material>
+
+  <material name="Methyl mercaptan (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.637E-07 * tx^(0.76706) / (1 + 107.97/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.653E-05 * tx^(1.1631) / (1 + 29.996/tx + 32519.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "908.3206637806277 + 1047.3843349867152*((809.24/tx)/sinh(809.24/tx)) + 877.6809251621265*((2192.4/tx)/cosh(2192.4/tx))"</parameter> 
+  </material>
+
+  <material name="Methylethyl ketone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.6552E-08 * tx^(0.98316)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-4202700.0 * tx^(-0.1524) / (1 + 2084600000.0/tx -14577000000000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1087.2923812424312 + 2916.8282349860733*((1548.8/tx)/sinh(1548.8/tx)) + 1644.1136708710487*((693.0/tx)/cosh(693.0/tx))"</parameter> 
+  </material>
+
+  <material name="1,2-Difluoroethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.3934E-07 * tx^(0.64867) / (1 + 169.64/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.4194E-06 * tx^(1.4456)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "874.9890423871503 + 1359.7432368250886*((847.27/tx)/sinh(847.27/tx)) + 654.792121782947*((2424.2/tx)/cosh(2424.2/tx))"</parameter> 
+  </material>
+
+  <material name="o-Xylene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.3436E-07 * tx^(0.49713) / (1 + 365.86/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "4.9707E-06 * tx^(1.3787) / (1 -225.64/tx + 66786.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "802.6185654405878 + 3104.0361701125603*((1494.3999999999999/tx)/sinh(1494.3999999999999/tx)) + 1992.181980878821*((675.8/tx)/cosh(675.8/tx))"</parameter> 
+  </material>
+
+  <material name="Dimethyl amine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.757E-07 * tx^(0.6841) / (1 + 133.2/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.6085 * tx^(-0.1103) / (1 + 2160.3/tx + 2989300.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1234.3712846866094 + 3634.1310203603607*((1734.1/tx)/sinh(1734.1/tx)) + 2417.504516046605*((793.04/tx)/cosh(793.04/tx))"</parameter> 
+  </material>
+
+  <material name="Nonanal (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.8518E-05 * tx^(0.10867) / (1 + 3502.7/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.75E-06 * tx^(1.5534)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1203.5409229926443 + 3167.7753903967855*((1710.0/tx)/sinh(1710.0/tx)) + 2366.3052973939148*((807.38/tx)/cosh(807.38/tx))"</parameter> 
+  </material>
+
+  <material name="Cumene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.3699E-07 * tx^(0.60751) / (1 + 221.17/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.6743E-07 * tx^(1.8369) / (1 -449.46/tx + 112760.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "899.3974453118929 + 3155.961507453351*((1750.5/tx)/sinh(1750.5/tx)) + 2498.2615254745797*((794.8/tx)/cosh(794.8/tx))"</parameter> 
+  </material>
+
+  <material name="Eicosane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.9236E-07 * tx^(0.62458) / (1 + 702.84/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-375.32 * tx^(1.0708) / (1 -8783600000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1149.5767012326564 + 3925.0040382593397*((1636.0/tx)/sinh(1636.0/tx)) + 2636.724985124624*((726.27/tx)/cosh(726.27/tx))"</parameter> 
+  </material>
+
+  <material name="2-Ethyl butanoic acid (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "9.2371E-08 * tx^(0.7908) / (1 + 102.32/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00017727 * tx^(0.9428) / (1 + 712.4/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "900.0649803010169 + 1992.7981027267276*((710.0/tx)/sinh(710.0/tx)) + 1266.3755007391637*((2061.6/tx)/cosh(2061.6/tx))"</parameter> 
+  </material>
+
+  <material name="Decane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.64E-08 * tx^(0.9487) / (1 + 71.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-668.4 * tx^(0.9323) / (1 -4071000000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1175.1337206589071 + 3762.255267157374*((1614.1000000000001/tx)/sinh(1614.1000000000001/tx)) + 2658.107494935399*((742.0/tx)/cosh(742.0/tx))"</parameter> 
+  </material>
+
+  <material name="Undecane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.594E-08 * tx^(0.9052) / (1 + 125.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.038012 * tx^(0.68615) / (1 + 34663.0/tx + 8721900.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1249.3901473920828 + 3902.416929214106*((1708.7/tx)/sinh(1708.7/tx)) + 2642.3427655070827*((775.4/tx)/cosh(775.4/tx))"</parameter> 
+  </material>
+
+  <material name="1-Pentene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.6378E-06 * tx^(0.44337) / (1 + 636.11/tx -26218.0/(tx^2))"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.7081E-06 * tx^(1.5493) / (1 + 41.075/tx + 8301.3/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1176.666015521959 + 3699.1198139532225*((1729.1000000000001/tx)/sinh(1729.1000000000001/tx)) + 2520.928123605326*((778.7/tx)/cosh(778.7/tx))"</parameter> 
+  </material>
+
+  <material name="Ethyl propionate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.53E-07 * tx^(0.6061) / (1 + 273.66/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.0507E-07 * tx^(1.9854)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "917.4428703331091 + 2769.9529137378504*((1648.0/tx)/sinh(1648.0/tx)) + 2110.020688973159*((724.7/tx)/cosh(724.7/tx))"</parameter> 
+  </material>
+
+  <material name="Quinone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.1085E-07 * tx^(0.8008) / (1 + 152.51/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-5678600.0 * tx^(-0.045252) / (1 + 2615700000.0/tx -35415000000000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "749.2685121831993 + 1457.1474139912057*((747.07/tx)/sinh(747.07/tx)) + 556.8817581906839*((2344.9/tx)/cosh(2344.9/tx))"</parameter> 
+  </material>
+
+  <material name="1-Butene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.9744E-07 * tx^(0.5462) / (1 + 305.25/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "9.6809E-05 * tx^(1.1153) / (1 + 781.82/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1145.2720477835653 + 3674.808827240853*((1676.8000000000002/tx)/sinh(1676.8000000000002/tx)) + 2374.777030466443*((757.06/tx)/cosh(757.06/tx))"</parameter> 
+  </material>
+
+  <material name="Hexyl mercaptan (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.3636E-08 * tx^(0.90747) / (1 + 42.32/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.074318 * tx^(0.30035) / (1 + 4470.1/tx + 1775800.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1070.869540654308 + 3154.083766321415*((1657.4/tx)/sinh(1657.4/tx)) + 1951.95616792777*((757.8/tx)/cosh(757.8/tx))"</parameter> 
+  </material>
+
+  <material name="Ammonia (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.1855E-08 * tx^(0.9806) / (1 + 30.8/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "9.6608E-06 * tx^(1.3799)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1962.770367551901 + 2876.0131810420353*((2036.0/tx)/sinh(2036.0/tx)) + 1324.6806321826932*((882.0/tx)/cosh(882.0/tx))"</parameter> 
+  </material>
+
+  <material name="2,3-Dimethylpentane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.0372E-07 * tx^(0.54462) / (1 + 227.44/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.2421E-05 * tx^(1.2137) / (1 -146.91/tx + 131830.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "852.6581421477468 + 4567.97543041582*((1518.1/tx)/sinh(1518.1/tx)) + 2968.0064078599676*((641.01/tx)/cosh(641.01/tx))"</parameter> 
+  </material>
+
+  <material name="m-Dichlorobenzene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.334E-07 * tx^(0.714) / (1 + 260.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-1067.8 * tx^(0.754) / (1 -3036100000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "476.18412706878195 + 1411.273700024136*((1366.4/tx)/sinh(1366.4/tx)) + 1087.264414705763*((620.16/tx)/cosh(620.16/tx))"</parameter> 
+  </material>
+
+  <material name="2-Methyl-2-propanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "9.605E-07 * tx^(0.4856) / (1 + 381.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.1776E-06 * tx^(1.6618)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1223.0982601562837 + 2312.0116133488755*((802.01/tx)/sinh(802.01/tx)) + 1406.337693735699*((2489.7/tx)/cosh(2489.7/tx))"</parameter> 
+  </material>
+
+  <material name="Cyclopropane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.7578E-06 * tx^(0.4265) / (1 + 370.34/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-91.383 * tx^(0.89718) / (1 -283310000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "803.2369021291481 + 4014.7586463224343*((1613.5/tx)/sinh(1613.5/tx)) + 2796.595226111188*((722.8/tx)/cosh(722.8/tx))"</parameter> 
+  </material>
+
+  <material name="1,2-Dichloropropane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.1989E-07 * tx^(0.79108) / (1 + 84.37/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "6.2435E-05 * tx^(1.103) / (1 + 913.43/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "696.1763493339955 + 1542.5840464469231*((1715.7/tx)/sinh(1715.7/tx)) + 1117.57466030669*((765.1/tx)/cosh(765.1/tx))"</parameter> 
+  </material>
+
+  <material name="Ethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.5906E-07 * tx^(0.67988) / (1 + 98.902/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "7.3869E-05 * tx^(1.1689) / (1 + 500.73/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1471.814825900429 + 2818.085071003359*((872.24/tx)/sinh(872.24/tx)) + 2232.531843426785*((2430.4/tx)/cosh(2430.4/tx))"</parameter> 
+  </material>
+
+  <material name="1,2-Butadiene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.0259E-07 * tx^(0.5309) / (1 + 199.64/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "8.8221E-05 * tx^(1.0273) / (1 + 75.316/tx + 99063.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1238.0006522409506 + 2032.7067038093974*((837.3699999999999/tx)/sinh(837.3699999999999/tx)) + 1264.0496176403815*((2441.1/tx)/cosh(2441.1/tx))"</parameter> 
+  </material>
+
+  <material name="Ethylpropyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.1539E-07 * tx^(0.5726) / (1 + 288.76/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "5.8174E-08 * tx^(2.0116) / (1 -372.68/tx + 57690.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1284.2012166331738 + 3335.292912457183*((1827.0/tx)/sinh(1827.0/tx)) + 2331.3016786052763*((852.0/tx)/cosh(852.0/tx))"</parameter> 
+  </material>
+
+  <material name="Methyl amine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.6409E-07 * tx^(0.5863) / (1 + 231.9/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-55.13 * tx^(1.065) / (1 -448200000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1320.149015845008 + 3405.9844608801213*((1708.0/tx)/sinh(1708.0/tx)) + 2201.106993247921*((735.0/tx)/cosh(735.0/tx))"</parameter> 
+  </material>
+
+  <material name="Dimethyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.68E-06 * tx^(0.3975) / (1 + 534.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.059975 * tx^(0.2667) / (1 + 1018.6/tx + 1098800.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1246.6452087372613 + 2051.165613595772*((895.51/tx)/sinh(895.51/tx)) + 1412.3551828540317*((2467.4/tx)/cosh(2467.4/tx))"</parameter> 
+  </material>
+
+  <material name="2,4,6-Trinitrotoluene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.8471E-08 * tx^(0.96571) / (1 + 30.83/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00018189 * tx^(0.88744) / (1 + 803.39/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "948.3509743932028 + 1075.6783197017053*((1112.6000000000001/tx)/sinh(1112.6000000000001/tx)) + 258.22531568772393*((950.59/tx)/cosh(950.59/tx))"</parameter> 
+  </material>
+
+  <material name="Ethylhexyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.9129E-08 * tx^(0.79565) / (1 + 83.193/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0052833 * tx^(0.52982) / (1 + 1415.7/tx + 378180.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1254.7232575011562 + 3464.6180327536517*((1753.2/tx)/sinh(1753.2/tx)) + 2382.899150965476*((809.75/tx)/cosh(809.75/tx))"</parameter> 
+  </material>
+
+  <material name="Hexanal (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.0986E-05 * tx^(0.10349) / (1 + 3180.6/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.5427E-06 * tx^(1.5824)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1182.1218448129612 + 3067.725996936068*((1707.7/tx)/sinh(1707.7/tx)) + 2114.0412113234493*((790.64/tx)/cosh(790.64/tx))"</parameter> 
+  </material>
+
+  <material name="1-Pentyne (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.1022E-08 * tx^(0.90585)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "5.2415E-05 * tx^(1.0948) / (1 -51.09/tx + 101160.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1105.4505907627786 + 3068.9833465997194*((1530.7/tx)/sinh(1530.7/tx)) + 2022.98926171462*((672.8/tx)/cosh(672.8/tx))"</parameter> 
+  </material>
+
+  <material name="Heptyl mercaptan (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.697E-08 * tx^(0.8932) / (1 + 57.6/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0083145 * tx^(0.51862) / (1 + 2253.0/tx + 532590.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1090.2195212197394 + 3145.38160480616*((1660.3000000000002/tx)/sinh(1660.3000000000002/tx)) + 2008.9676225971507*((759.39/tx)/cosh(759.39/tx))"</parameter> 
+  </material>
+
+  <material name="Vinyl trichlorosilane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.6429E-08 * tx^(0.95924)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "3510.8 * tx^(0.225) / (1 + 401720000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "525.6929047867567 + 710.3238521931922*((1380.0/tx)/sinh(1380.0/tx)) + 557.311016453555*((644.61/tx)/cosh(644.61/tx))"</parameter> 
+  </material>
+
+  <material name="Ethylisopropyl ketone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.0498E-07 * tx^(0.76988) / (1 + 100.41/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-152400.0 * tx^(-0.049106) / (1 + 80955000.0/tx -931220000000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1238.0330131487094 + 3194.923904899895*((1967.0/tx)/sinh(1967.0/tx)) + 2342.2785877797355*((896.0/tx)/cosh(896.0/tx))"</parameter> 
+  </material>
+
+  <material name="2-Pentyne (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.765E-07 * tx^(0.53498) / (1 + 235.2/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00025623 * tx^(1.0073) / (1 + 1423.7/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1205.220075687398 + 2154.6744117696285*((844.63/tx)/sinh(844.63/tx)) + 1413.1269982157178*((2452.3/tx)/cosh(2452.3/tx))"</parameter> 
+  </material>
+
+  <material name="1,3-Butanediol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.0728E-08 * tx^(0.84383) / (1 + 64.391/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-918.39 * tx^(-0.21199) / (1 + 334420.0/tx -2884200000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1182.8541627367651 + 2857.2696707759574*((1967.0/tx)/sinh(1967.0/tx)) + 2164.867234051997*((860.5/tx)/cosh(860.5/tx))"</parameter> 
+  </material>
+
+  <material name="Pentadecane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.0828E-08 * tx^(0.8766) / (1 + 212.68/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "4.7796E-06 * tx^(1.4851) / (1 + 643.13/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1161.8317349025667 + 3964.5112873137055*((1686.5/tx)/sinh(1686.5/tx)) + 2755.790115725578*((743.6/tx)/cosh(743.6/tx))"</parameter> 
+  </material>
+
+  <material name="Bromobenzene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.232E-07 * tx^(0.7146) / (1 + 184.9/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00027085 * tx^(0.7932) / (1 + 278.33/tx + 165880.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "459.2125619156743 + 1314.5835336948012*((1650.4/tx)/sinh(1650.4/tx)) + 1074.4682273949272*((765.3/tx)/cosh(765.3/tx))"</parameter> 
+  </material>
+
+  <material name="Deuterium (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.4999E-07 * tx^(0.6878) / (1 + 0.5962/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00028527 * tx^(0.9874) / (1 -200.51/tx + 21807.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "7513.146145450937 + 2418.394682012104*((2515.0/tx)/sinh(2515.0/tx)) -682.1113205675166*((368.0/tx)/cosh(368.0/tx))"</parameter> 
+  </material>
+
+  <material name="Propyl amine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.62E-07 * tx^(0.7285) / (1 + 117.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.2833 * tx^(0.055046) / (1 + 1325.9/tx + 1817600.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1287.0523662051226 + 3560.9723252782182*((1725.6/tx)/sinh(1725.6/tx)) + 2357.627931259311*((789.03/tx)/cosh(789.03/tx))"</parameter> 
+  </material>
+
+  <material name="o-Cresol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.7371E-08 * tx^(0.80775) / (1 + 98.538/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00018648 * tx^(0.9302) / (1 + 709.37/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "738.6869829630373 + 2638.2999028462013*((1476.5/tx)/sinh(1476.5/tx)) + 1888.3310205439684*((664.7/tx)/cosh(664.7/tx))"</parameter> 
+  </material>
+
+  <material name="Diisopropyl amine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.138E-07 * tx^(0.5999) / (1 + 269.5/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00051305 * tx^(0.8076) / (1 + 360.19/tx + 154510.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1125.0123529993084 + 2544.4213855124026*((738.4/tx)/sinh(738.4/tx)) + 1600.9487103468723*((2143.0/tx)/cosh(2143.0/tx))"</parameter> 
+  </material>
+
+  <material name="Methylethyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.6098E-07 * tx^(0.68276) / (1 + 133.4/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00024036 * tx^(0.93177) / (1 + 588.14/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1317.7131815581392 + 2190.8637354642697*((871.36/tx)/sinh(871.36/tx)) + 1441.0012676591173*((2468.0/tx)/cosh(2468.0/tx))"</parameter> 
+  </material>
+
+  <material name="Benzophenone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.779E-07 * tx^(0.6005) / (1 + 409.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0001235 * tx^(0.9495) / (1 + 778.7/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "554.2265606178098 + 2463.973078385823*((1311.0/tx)/sinh(1311.0/tx)) + 1558.2991572178146*((627.4/tx)/cosh(627.4/tx))"</parameter> 
+  </material>
+
+  <material name="Ethyl butyrate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.6175E-07 * tx^(0.7163) / (1 + 142.27/tx + 3590.0/(tx^2))"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "829.29 * tx^(1.0156) / (1 + 8955300000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "959.8971334630643 + 2919.2925377338574*((1670.5/tx)/sinh(1670.5/tx)) + 2167.7318224753326*((733.6/tx)/cosh(733.6/tx))"</parameter> 
+  </material>
+
+  <material name="Methylchlorosilane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.8806E-08 * tx^(0.92549)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00037057 * tx^(0.81367) / (1 + 609.17/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "743.216497557356 + 1443.8713023753892*((1565.0/tx)/sinh(1565.0/tx)) + 1012.3106283867878*((690.39/tx)/cosh(690.39/tx))"</parameter> 
+  </material>
+
+  <material name="3-Methylcyclopentene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.9771E-08 * tx^(0.92242)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0019845 * tx^(0.6393) / (1 + 227.11/tx + 434120.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "781.8016254461699 + 3738.6966239609656*((1638.7/tx)/sinh(1638.7/tx)) + 2592.776552281614*((750.25/tx)/cosh(750.25/tx))"</parameter> 
+  </material>
+
+  <material name="Methylisobutyl ketone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "9.4257E-08 * tx^(0.7845) / (1 + 90.183/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-2483300.0 * tx^(-0.046517) / (1 + 1313100000.0/tx -15798000000000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1225.0536347850536 + 2191.5181160172715*((842.0/tx)/sinh(842.0/tx)) + 1189.1107408549296*((2460.0/tx)/cosh(2460.0/tx))"</parameter> 
+  </material>
+
+  <material name="Hydrogen fluoride (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.5101E-14 * tx^(3.0005) / (1 -521.83/tx + 76111.0/(tx^2))"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "3.4629E-05 * tx^(1.1224) / (1 + 18.744/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1456.2381395116724 + 466.1021710354344*((2905.0/tx)/sinh(2905.0/tx)) + 9.746908670446082*((1326.0/tx)/cosh(1326.0/tx))"</parameter> 
+  </material>
+
+  <material name="Propyl mercaptan (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.9457E-08 * tx^(0.84656) / (1 + 65.878/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0087425 * tx^(0.51733) / (1 + 2358.1/tx + 334590.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "981.3470531095992 + 2563.3982496466024*((1631.0/tx)/sinh(1631.0/tx)) + 1590.3231880202657*((750.92/tx)/cosh(750.92/tx))"</parameter> 
+  </material>
+
+  <material name="Dibutyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.7147E-08 * tx^(0.79906) / (1 + 80.765/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0032694 * tx^(0.58633) / (1 + 1259.9/tx + 300890.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1237.983375607934 + 3438.3563831780457*((1683.1000000000001/tx)/sinh(1683.1000000000001/tx)) + 2240.686943322138*((781.6/tx)/cosh(781.6/tx))"</parameter> 
+  </material>
+
+  <material name="1,1-Difluoroethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.7228E-06 * tx^(0.39531) / (1 + 445.07/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "5.9249E-05 * tx^(1.0713) / (1 + 101.84/tx + 45974.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "839.924681267834 + 1871.461864403572*((835.01/tx)/sinh(835.01/tx)) -620.3182227032048*((1033.4/tx)/cosh(1033.4/tx))"</parameter> 
+  </material>
+
+  <material name="Methyl acetylene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.163E-06 * tx^(0.4787) / (1 + 316.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00026544 * tx^(0.8921) / (1 + 222.19/tx + 79869.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1291.28845797684 + 1701.2090197998896*((805.25/tx)/sinh(805.25/tx)) + 1283.0016878054187*((2463.8/tx)/cosh(2463.8/tx))"</parameter> 
+  </material>
+
+  <material name="Benzene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.134E-08 * tx^(0.9676) / (1 + 7.9/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.652E-05 * tx^(1.3117) / (1 + 491.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "707.165520617617 + 2219.637893563895*((764.25/tx)/sinh(764.25/tx)) + 928.7324431225791*((2445.7/tx)/cosh(2445.7/tx))"</parameter> 
+  </material>
+
+  <material name="Octyl mercaptan (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.3253E-08 * tx^(0.9351) / (1 + 32.426/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-3965.5 * tx^(0.5213) / (1 -1851900000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1092.3928824735367 + 3148.669879568145*((1629.5/tx)/sinh(1629.5/tx)) + 2071.246901434869*((756.28/tx)/cosh(756.28/tx))"</parameter> 
+  </material>
+
+  <material name="Formaldehyde (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.5948E-05 * tx^(0.21516) / (1 + 1151.1/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "5.2201E-06 * tx^(1.417)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1115.8003835345257 + 1645.0420602424967*((1928.0/tx)/sinh(1928.0/tx)) + 990.075927580049*((965.04/tx)/cosh(965.04/tx))"</parameter> 
+  </material>
+
+  <material name="Diethyl sulfide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.5492E-08 * tx^(0.86232) / (1 + 59.455/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0018097 * tx^(0.67406) / (1 + 1179.7/tx + 174850.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1012.0394024872709 + 2672.219561090709*((1668.6000000000001/tx)/sinh(1668.6000000000001/tx)) + 1831.7455248638387*((771.08/tx)/cosh(771.08/tx))"</parameter> 
+  </material>
+
+  <material name="Nitrous oxide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.115E-06 * tx^(0.4642) / (1 + 305.7/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.001096 * tx^(0.667) / (1 + 540.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "666.5788134360913 + 735.2406572633416*((1123.8/tx)/sinh(1123.8/tx)) + 494.6288352479279*((479.4/tx)/cosh(479.4/tx))"</parameter> 
+  </material>
+
+  <material name="1-Chloropropane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.71E-08 * tx^(0.911)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.01652 * tx^(0.44154) / (1 + 2444.42/tx + 793392.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "823.9042493647878 + 2289.2595276740667*((1676.0/tx)/sinh(1676.0/tx)) + 1569.8870954516822*((755.78/tx)/cosh(755.78/tx))"</parameter> 
+  </material>
+
+  <material name="Pentyl mercaptan (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.7467E-08 * tx^(0.97555)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00011261 * tx^(1.034) / (1 + 693.05/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1053.0277281948702 + 3162.633578783919*((1676.1/tx)/sinh(1676.1/tx)) + 1869.810307235761*((757.67/tx)/cosh(757.67/tx))"</parameter> 
+  </material>
+
+  <material name="Methylsilane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.8926E-07 * tx^(0.63159) / (1 + 169.45/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "12.248 * tx^(-0.5611) / (1 -1067.0/tx + 2715200.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1000.111824243496 + 2769.817163027611*((1456.5/tx)/sinh(1456.5/tx)) + 1714.5300434467526*((643.23/tx)/cosh(643.23/tx))"</parameter> 
+  </material>
+
+  <material name="Naphthalene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.4318E-07 * tx^(0.5389) / (1 + 400.16/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "9.1828E-05 * tx^(1.0345) / (1 + 731.78/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "696.1975343472118 + 2088.779853588797*((761.22/tx)/sinh(761.22/tx)) + 795.8928464985552*((2435.5/tx)/cosh(2435.5/tx))"</parameter> 
+  </material>
+
+  <material name="Benzonitrile (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.4647E-05 * tx^(0.12396) / (1 + 3260.2/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.3917E-06 * tx^(1.5389)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "744.9479399503304 + 2194.987844412357*((747.86/tx)/sinh(747.86/tx)) -655.3932116837161*((896.0/tx)/cosh(896.0/tx))"</parameter> 
+  </material>
+
+  <material name="1-Decyne (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.6914E-07 * tx^(0.50744) / (1 + 273.3/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.6707E-05 * tx^(1.2128) / (1 -206.08/tx + 153850.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1088.2465610106683 + 3167.741435221084*((1329.1/tx)/sinh(1329.1/tx)) + 1848.6086646560084*((632.01/tx)/cosh(632.01/tx))"</parameter> 
+  </material>
+
+  <material name="Fluorine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.36E-07 * tx^(0.6638) / (1 + 61.6/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00012144 * tx^(0.93831)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "766.432833681517 + 266.65398910999005*((1453.0/tx)/sinh(1453.0/tx)) + 247.65239217578036*((662.91/tx)/cosh(662.91/tx))"</parameter> 
+  </material>
+
+  <material name="Benzyl alcohol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.9022E-08 * tx^(0.84014) / (1 + 74.746/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00023476 * tx^(0.8639) / (1 + 187.8/tx + 193840.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "777.849969603604 + 2906.291249444459*((1953.8999999999999/tx)/sinh(1953.8999999999999/tx)) + 2380.573235154916*((850.06/tx)/cosh(850.06/tx))"</parameter> 
+  </material>
+
+  <material name="Methyl acrylate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.648E-06 * tx^(0.4444) / (1 + 510.66/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.4734 * tx^(-0.1111) / (1 + 533.57/tx + 1649600.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "140.08719324273278 + 2760.6237434550467*((1054.3/tx)/sinh(1054.3/tx)) + 2112.4591180035973*((418.8/tx)/cosh(418.8/tx))"</parameter> 
+  </material>
+
+  <material name="2-Butanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.2114E-07 * tx^(0.76972) / (1 + 92.661/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "4.5894E-06 * tx^(1.4484)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1226.066355826102 + 3441.3720157147177*((1893.0/tx)/sinh(1893.0/tx)) + 2498.596900228813*((832.13/tx)/cosh(832.13/tx))"</parameter> 
+  </material>
+
+  <material name="Vinyl chloride (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.379E-07 * tx^(0.71517) / (1 + 102.84/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-229.41 * tx^(0.59582) / (1 -169430000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "677.8433049773257 + 1397.6398047816401*((1649.2/tx)/sinh(1649.2/tx)) + 1048.9898752316465*((739.07/tx)/cosh(739.07/tx))"</parameter> 
+  </material>
+
+  <material name="Acetic anhydride (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.0939E-05 * tx^(0.23466) / (1 + 1209.5/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "3.1289E-06 * tx^(1.4618)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "861.9764157892592 + 1629.4663147633273*((801.53/tx)/sinh(801.53/tx)) + 745.1955477122626*((2310.1/tx)/cosh(2310.1/tx))"</parameter> 
+  </material>
+
+  <material name="2-Nonanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.5879E-05 * tx^(0.10109) / (1 + 3258.2/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00016806 * tx^(0.96876) / (1 + 713.67/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1255.97033031784 + 2490.5202592631103*((818.41/tx)/sinh(818.41/tx)) + 1510.6582094208172*((2550.1/tx)/cosh(2550.1/tx))"</parameter> 
+  </material>
+
+  <material name="Air (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.425E-06 * tx^(0.5039) / (1 + 108.3/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00031417 * tx^(0.7786) / (1 -0.7116/tx + 2121.7/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "999.9309392265193 + 324.2403314917127*((3012.0/tx)/sinh(3012.0/tx)) + 261.7403314917127*((1484.0/tx)/cosh(1484.0/tx))"</parameter> 
+  </material>
+
+  <material name="Hydrogen bromide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "9.17E-08 * tx^(0.9273)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00049725 * tx^(0.63088) / (1 + 331.62/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "359.8974391171439 + 117.7823693264554*((2142.0/tx)/sinh(2142.0/tx)) + 19.403811106247108*((1400.0/tx)/cosh(1400.0/tx))"</parameter> 
+  </material>
+
+  <material name="2-Octanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.4163E-05 * tx^(0.10661) / (1 + 3028.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00016915 * tx^(0.97238) / (1 + 698.55/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1213.4871149061644 + 2483.951224007126*((798.14/tx)/sinh(798.14/tx)) + 1373.1302024142274*((2434.3/tx)/cosh(2434.3/tx))"</parameter> 
+  </material>
+
+  <material name="Decyl mercaptan (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.272E-08 * tx^(0.9302) / (1 + 39.13/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00012058 * tx^(1.0111) / (1 + 740.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1107.5633903668256 + 3144.0231612096086*((1608.5/tx)/sinh(1608.5/tx)) + 2145.151258400791*((754.75/tx)/cosh(754.75/tx))"</parameter> 
+  </material>
+
+  <material name="1,1-Dimethylcyclohexane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.822E-07 * tx^(0.4994) / (1 + 371.6/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.008856 * tx^(0.4215) / (1 -50.645/tx + 764580.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "960.3196217467122 + 4163.345591013633*((1654.0/tx)/sinh(1654.0/tx)) + 2976.2244253410313*((792.5/tx)/cosh(792.5/tx))"</parameter> 
+  </material>
+
+  <material name="1-Octene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.0324E-05 * tx^(0.077611) / (1 + 3604.6/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.33E-05 * tx^(1.3554) / (1 + 504.59/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1211.8955582900464 + 3707.692823197102*((1731.7/tx)/sinh(1731.7/tx)) + 2555.416216925295*((784.47/tx)/cosh(784.47/tx))"</parameter> 
+  </material>
+
+  <material name="Silicon tetrafluoride (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.1671E-07 * tx^(0.76757) / (1 + 16.28/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "9.55E-05 * tx^(0.928) / (1 + 63.6/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "353.67327795174265 + 684.5273753782099*((652.01/tx)/sinh(652.01/tx)) + 448.8989192932184*((286.03/tx)/cosh(286.03/tx))"</parameter> 
+  </material>
+
+  <material name="Cyclohexane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.77E-08 * tx^(0.8367) / (1 + 36.7/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "8.59E-07 * tx^(1.7709) / (1 + 243.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "513.3111563902248 + 4438.002706290486*((1192.0/tx)/sinh(1192.0/tx)) + 1942.7401405046703*((530.1/tx)/cosh(530.1/tx))"</parameter> 
+  </material>
+
+  <material name="Thiophene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.03E-06 * tx^(0.5497) / (1 + 569.4/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00013384 * tx^(0.98115) / (1 + 645.95/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "578.7289593622786 + 1470.8895554005749*((712.7099999999999/tx)/sinh(712.7099999999999/tx)) + 561.5432265155653*((2484.2/tx)/cosh(2484.2/tx))"</parameter> 
+  </material>
+
+  <material name="Octane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.1191E-08 * tx^(0.92925) / (1 + 55.092/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-8758.0 * tx^(0.8448) / (1 -27121000000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1186.5688183651507 + 3879.066278719185*((1635.6/tx)/sinh(1635.6/tx)) + 2673.5879971131553*((746.4/tx)/cosh(746.4/tx))"</parameter> 
+  </material>
+
+  <material name="Dibromomethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.9444E-07 * tx^(0.728) / (1 + 154.74/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00021302 * tx^(0.8719) / (1 + 1620.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "224.9264789548777 + 372.76817995590983*((1194.0/tx)/sinh(1194.0/tx)) + 241.6090055269786*((501.0/tx)/cosh(501.0/tx))"</parameter> 
+  </material>
+
+  <material name="3-Methyl-1,2-butadiene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.0824E-07 * tx^(0.5923) / (1 + 208.22/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0002509 * tx^(0.899) / (1 + 253.4/tx + 149500.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "985.069517133897 + 3262.033482967987*((1421.0/tx)/sinh(1421.0/tx)) + 1752.865876986398*((614.7/tx)/cosh(614.7/tx))"</parameter> 
+  </material>
+
+  <material name="1-Methylcyclohexanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.5736E-08 * tx^(0.80277) / (1 + 100.77/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00011359 * tx^(1.0311) / (1 + 709.27/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "697.0239468317594 + 2273.4943660952977*((621.3/tx)/sinh(621.3/tx)) + 2003.7577463890757*((1698.6/tx)/cosh(1698.6/tx))"</parameter> 
+  </material>
+
+  <material name="3-Pentanone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.164E-07 * tx^(0.7615) / (1 + 107.94/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "22.775 * tx^(1.0019) / (1 + 191000000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1124.967056493325 + 2891.71425818189*((1417.7/tx)/sinh(1417.7/tx)) + 1510.4670373367483*((646.7/tx)/cosh(646.7/tx))"</parameter> 
+  </material>
+
+  <material name="cis-1,2-Dimethylcyclohexane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.4576E-07 * tx^(0.487) / (1 + 398.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.013298 * tx^(0.3692) / (1 + 0.1027/tx + 852540.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "983.7572665610578 + 4139.016780997221*((1694.3/tx)/sinh(1694.3/tx)) + 3025.4167444950945*((798.35/tx)/cosh(798.35/tx))"</parameter> 
+  </material>
+
+  <material name="Methylisopropyl ketone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.0826E-07 * tx^(0.77382) / (1 + 93.349/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-5935000.0 * tx^(-0.089497) / (1 + 3098800000.0/tx -27994000000000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1847.6227849482714 + 2048.012185904707*((1207.6/tx)/sinh(1207.6/tx)) -472993.2905541823*((10.503/tx)/cosh(10.503/tx))"</parameter> 
+  </material>
+
+  <material name="Methyl formate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.9755E-06 * tx^(0.3154) / (1 + 1034.5/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-800040.0 * tx^(-0.2285) / (1 + 248100000.0/tx -1503400000000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "842.6036385823211 + 2029.908765675592*((1637.0/tx)/sinh(1637.0/tx)) + 1488.710776467579*((743.0/tx)/cosh(743.0/tx))"</parameter> 
+  </material>
+
+  <material name="Decanoic acid (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.1748E-08 * tx^(0.7982) / (1 + 109.38/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "3.3251E-09 * tx^(2.4876) / (1 -124.9/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "141.9731228049807 + 3799.9593649319368*((1089.9/tx)/sinh(1089.9/tx)) + 2823.67282965199*((424.0/tx)/cosh(424.0/tx))"</parameter> 
+  </material>
+
+  <material name="1,2-Dimethoxypropane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.9833E-08 * tx^(0.91566)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "3.7962E-06 * tx^(1.4462)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "971.0259230219273 + 3110.2979061059314*((1561.1/tx)/sinh(1561.1/tx)) + 2064.474277750861*((689.3/tx)/cosh(689.3/tx))"</parameter> 
+  </material>
+
+  <material name="1-Octanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.752E-07 * tx^(0.6941) / (1 + 206.8/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-0.0030238 * tx^(0.8745) / (1 -13352.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1060.0645391556586 + 3423.9969432054195*((1575.1/tx)/sinh(1575.1/tx)) + 2458.458984832131*((718.8/tx)/cosh(718.8/tx))"</parameter> 
+  </material>
+
+  <material name="Carbon disulfide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.8204E-08 * tx^(0.9262) / (1 + 44.581/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0003467 * tx^(0.7345) / (1 + 479.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "395.3207679992435 + 438.3989114888621*((896.0/tx)/sinh(896.0/tx)) + 379.9544790105686*((374.7/tx)/cosh(374.7/tx))"</parameter> 
+  </material>
+
+  <material name="Chloromethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.286E-08 * tx^(0.907)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-3263.77 * tx^(0.0675) / (1 -46803200.0/tx -25000700000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "717.4052983411736 + 1382.7184946769003*((1805.0/tx)/sinh(1805.0/tx)) + 880.8120821985641*((844.27/tx)/cosh(844.27/tx))"</parameter> 
+  </material>
+
+  <material name="Methyl pentyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.0546E-07 * tx^(0.77106) / (1 + 93.745/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.93312 * tx^(-0.1172) / (1 + 1154.3/tx + 2961700.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "923.1829857001866 + 3519.9495452693013*((1353.3/tx)/sinh(1353.3/tx)) + 2013.1194827372242*((599.92/tx)/cosh(599.92/tx))"</parameter> 
+  </material>
+
+  <material name="Nitrogen trifluoride (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.2005E-07 * tx^(0.61423) / (1 + 114.58/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.1443 * tx^(-0.30545) / (1 + 1860.3/tx + 1216700.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "468.77612165644564 + 701.9106950784845*((709.3000000000001/tx)/sinh(709.3000000000001/tx)) + 327.6531574995659*((372.91/tx)/cosh(372.91/tx))"</parameter> 
+  </material>
+
+  <material name="2-Ethyl hexanoic acid (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.5704E-08 * tx^(0.94738)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.5804E-06 * tx^(1.4669)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1094.021953942487 + 3052.263696944061*((1749.4/tx)/sinh(1749.4/tx)) + 2245.1824063351614*((792.34/tx)/cosh(792.34/tx))"</parameter> 
+  </material>
+
+  <material name="Butylbenzene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.4205E-07 * tx^(0.59764) / (1 + 234.21/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.1807 * tx^(0.0082225) / (1 -129.42/tx + 1691500.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "847.8733429217028 + 3318.4779168482114*((1550.7/tx)/sinh(1550.7/tx)) + 2272.196251237537*((708.86/tx)/cosh(708.86/tx))"</parameter> 
+  </material>
+
+  <material name="3-Methyl-1-butyne (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.0748E-08 * tx^(0.92709)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "6.5855E-05 * tx^(1.072) / (1 -36.369/tx + 106430.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1214.6743941528857 + 3138.2758670300027*((1755.0/tx)/sinh(1755.0/tx)) + 2223.9669321999113*((782.0/tx)/cosh(782.0/tx))"</parameter> 
+  </material>
+
+  <material name="Toluene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.7268E-07 * tx^(0.49397) / (1 + 323.79/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.392E-05 * tx^(1.2694) / (1 + 537.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "631.0071303588666 + 3107.2814142026746*((1440.6000000000001/tx)/sinh(1440.6000000000001/tx)) + 2059.9441579310783*((650.43/tx)/cosh(650.43/tx))"</parameter> 
+  </material>
+
+  <material name="Hydrogen chloride (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.924E-07 * tx^(0.6702) / (1 + 157.7/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.001865 * tx^(0.49755) / (1 + 358.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "799.6776824733537 + 248.15597184274458*((2093.7999999999997/tx)/sinh(2093.7999999999997/tx)) -2.9346473239581865*((120.0/tx)/cosh(120.0/tx))"</parameter> 
+  </material>
+
+  <material name="3-Hexanone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "9.8882E-08 * tx^(0.7755) / (1 + 99.825/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-0.33262 * tx^(0.12054) / (1 -2472.6/tx -5493400.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1121.9174974800037 + 2931.3426827456537*((1401.0/tx)/sinh(1401.0/tx)) + 1598.4603661702288*((650.5/tx)/cosh(650.5/tx))"</parameter> 
+  </material>
+
+  <material name="Carbon dioxide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.148E-06 * tx^(0.46) / (1 + 290.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "3.69 * tx^(-0.3838) / (1 + 964.0/tx + 1860000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "667.3559117917722 + 784.8305479498744*((1428.0/tx)/sinh(1428.0/tx)) + 599.8704825094582*((588.0/tx)/cosh(588.0/tx))"</parameter> 
+  </material>
+
+  <material name="trans-2-Butene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.05E-06 * tx^(0.4867) / (1 + 358.7/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "7.8576E-05 * tx^(1.0565) / (1 + 14.63/tx + 105920.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1324.2001970544495 + 2401.8684526092607*((870.25/tx)/sinh(870.25/tx)) + 1588.3415629469193*((2463.4/tx)/cosh(2463.4/tx))"</parameter> 
+  </material>
+
+  <material name="Octanal (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.95E-05 * tx^(0.10787) / (1 + 3390.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.66E-06 * tx^(1.5669)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1244.4232989111786 + 2454.29444981749*((857.88/tx)/sinh(857.88/tx)) + 1147.5524911864725*((2679.4/tx)/cosh(2679.4/tx))"</parameter> 
+  </material>
+
+  <material name="Chlorine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.6E-07 * tx^(0.7423) / (1 + 98.3/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0009993 * tx^(0.5472) / (1 + 458.6/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "410.9948382365385 + 129.41076918737483*((949.0/tx)/sinh(949.0/tx)) + 141.454883930838*((425.0/tx)/cosh(425.0/tx))"</parameter> 
+  </material>
+
+  <material name="Carbon tetrachloride (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.137E-06 * tx^(0.3742) / (1 + 491.5/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00016599 * tx^(0.94375) / (1 + 1449.6/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "244.32024662159748 + 458.57991050735683*((512.1/tx)/sinh(512.1/tx)) + 315.29806719034315*((236.1/tx)/cosh(236.1/tx))"</parameter> 
+  </material>
+
+  <material name="2-Methyl-1-butene-3-yne (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.6844E-07 * tx^(0.553) / (1 + 227.18/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00015498 * tx^(0.9364) / (1 + 15.366/tx + 137400.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1196.0459380882085 + 2505.251800498448*((1692.6000000000001/tx)/sinh(1692.6000000000001/tx)) + 1840.664170088443*((788.4/tx)/cosh(788.4/tx))"</parameter> 
+  </material>
+
+  <material name="Bromine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.3534E-08 * tx^(0.93798)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.0404E-06 * tx^(1.4685)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "188.43236884261114 + 50.11638966760112*((751.4/tx)/sinh(751.4/tx)) + 67.45594713656388*((314.6/tx)/cosh(314.6/tx))"</parameter> 
+  </material>
+
+  <material name="Ethanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.0613E-07 * tx^(0.8066) / (1 + 52.7/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-0.010109 * tx^(0.6475) / (1 -7332.0/tx -268000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1067.976254459669 + 3164.205256353373*((1662.8/tx)/sinh(1662.8/tx)) + 2038.2717539382709*((744.7/tx)/cosh(744.7/tx))"</parameter> 
+  </material>
+
+  <material name="N-Methyl acetamide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.0599E-08 * tx^(0.8392) / (1 + 77.332/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.034177 * tx^(0.3312) / (1 + 2070.0/tx + 1195600.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "836.7333034356686 + 2775.8859919407646*((1768.3/tx)/sinh(1768.3/tx)) + 1819.853891808578*((835.5/tx)/cosh(835.5/tx))"</parameter> 
+  </material>
+
+  <material name="Hydrogen cyanide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.278E-08 * tx^(1.0631) / (1 + 340.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "4.6496E-06 * tx^(1.3669) / (1 -210.76/tx + 58295.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1114.694579235636 + 1173.343240085046*((1610.2/tx)/sinh(1610.2/tx)) + 806.2803280180749*((626.0/tx)/cosh(626.0/tx))"</parameter> 
+  </material>
+
+  <material name="Ethyl mercaptan (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.5992E-08 * tx^(0.8427) / (1 + 58.148/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0015251 * tx^(0.70243) / (1 + 1347.5/tx + 35085.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "972.6713408624323 + 1408.6320477470965*((786.62/tx)/sinh(786.62/tx)) + 1007.8533441572446*((-2190.0/tx)/cosh(-2190.0/tx))"</parameter> 
+  </material>
+
+  <material name="Benzamide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.5082E-08 * tx^(0.96663)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.025389 * tx^(0.28547) / (1 + 1018.3/tx + 1228600.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1616.4398895857883 + 1404.943081602601*((1325.7/tx)/sinh(1325.7/tx)) -30888.275036326766*((41.232/tx)/cosh(41.232/tx))"</parameter> 
+  </material>
+
+  <material name="Decanal (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.5018E-05 * tx^(0.11725) / (1 + 3394.6/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.9749E-06 * tx^(1.5349)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1243.0790732677526 + 3289.4720001638243*((1897.8/tx)/sinh(1897.8/tx)) + 2671.868080673112*((859.95/tx)/cosh(859.95/tx))"</parameter> 
+  </material>
+
+  <material name="Heptane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.672E-08 * tx^(0.82837) / (1 + 85.752/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-0.070028 * tx^(0.38068) / (1 -7049.9/tx -2400500.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1199.078580714106 + 3992.9366637013222*((1676.6000000000001/tx)/sinh(1676.6000000000001/tx)) + 2734.4779951366213*((756.4/tx)/cosh(756.4/tx))"</parameter> 
+  </material>
+
+  <material name="2-Methylbutanoic acid (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.869E-07 * tx^(0.7096) / (1 + 192.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0001799 * tx^(0.9457) / (1 + 704.6/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1807.2743330425324 + 1706.6199818469684*((1220.0/tx)/sinh(1220.0/tx)) -54938.868147695575*((31.2/tx)/cosh(31.2/tx))"</parameter> 
+  </material>
+
+  <material name="Vinyl acetate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.388E-07 * tx^(0.7599) / (1 + 98.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-3279500.0 * tx^(-0.12941) / (1 + 1710400000.0/tx -12727000000000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "622.609747745479 + 2461.3993572251306*((1198.0/tx)/sinh(1198.0/tx)) + 1332.3383967613142*((510.0/tx)/cosh(510.0/tx))"</parameter> 
+  </material>
+
+  <material name="Dimethylsilane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.7238E-08 * tx^(0.90849)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0011808 * tx^(0.742) / (1 + 1131.0/tx + 6400.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1021.3157893862134 + 2898.1017583058256*((1341.8000000000002/tx)/sinh(1341.8000000000002/tx)) + 1678.8980366100154*((592.09/tx)/cosh(592.09/tx))"</parameter> 
+  </material>
+
+  <material name="Propionitrile (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "9.6891E-06 * tx^(0.24601) / (1 + 1537.6/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.1671E-06 * tx^(1.6033)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "953.6388972103452 + 2662.2003140971524*((1547.6000000000001/tx)/sinh(1547.6000000000001/tx)) + 1689.0982869903864*((674.15/tx)/cosh(674.15/tx))"</parameter> 
+  </material>
+
+  <material name="Methylcyclopentane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "9.0798E-07 * tx^(0.495) / (1 + 355.89/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0024385 * tx^(0.61774) / (1 + 223.01/tx + 477570.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "932.0280971317788 + 2971.382427743137*((819.37/tx)/sinh(819.37/tx)) + 1544.805172275304*((2416.4/tx)/cosh(2416.4/tx))"</parameter> 
+  </material>
+
+  <material name="1,2,4-Trimethylbenzene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.8812E-07 * tx^(0.51063) / (1 + 330.88/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "8.498E-05 * tx^(1.061) / (1 + 708.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1015.8781505326747 + 2235.1815326830715*((828.86/tx)/sinh(828.86/tx)) + 1181.6967544648303*((2443.0/tx)/cosh(2443.0/tx))"</parameter> 
+  </material>
+
+  <material name="Phthalic anhydride (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.3511E-08 * tx^(0.908) / (1 + 102.73/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "5.93E-05 * tx^(1.046) / (1 + 765.5/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "497.17936454481895 + 1717.577815592096*((1085.2/tx)/sinh(1085.2/tx)) + 545.5199980339676*((573.0/tx)/cosh(573.0/tx))"</parameter> 
+  </material>
+
+  <material name="Acetaldehyde (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.9703E-05 * tx^(0.17646) / (1 + 1564.6/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.0943E-07 * tx^(2.0279)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1095.305244462524 + 2420.971675652902*((1992.8999999999999/tx)/sinh(1992.8999999999999/tx)) + 1789.93002903804*((912.78/tx)/cosh(912.78/tx))"</parameter> 
+  </material>
+
+  <material name="1-Hexene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.006E-08 * tx^(0.81293) / (1 + 65.274/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "6.4256E-05 * tx^(1.1355) / (1 + 445.15/tx + 64810.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1239.7890291147237 + 3653.658506445144*((1745.9/tx)/sinh(1745.9/tx)) + 2462.942974457542*((793.53/tx)/cosh(793.53/tx))"</parameter> 
+  </material>
+
+  <material name="2-Propyl mercaptan (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.5532E-08 * tx^(0.95654)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00018367 * tx^(0.9627) / (1 + 646.01/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "969.2016687889359 + 2564.186058359294*((1595.3999999999999/tx)/sinh(1595.3999999999999/tx)) + 1622.360742336394*((730.5/tx)/cosh(730.5/tx))"</parameter> 
+  </material>
+
+  <material name="1-Propanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.942E-07 * tx^(0.5491) / (1 + 415.8/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-613.84 * tx^(0.7927) / (1 -1157400000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1030.0354338845382 + 3363.506659952855*((1629.3/tx)/sinh(1629.3/tx)) + 2155.919076156394*((727.4/tx)/cosh(727.4/tx))"</parameter> 
+  </material>
+
+  <material name="Propionaldehyde (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.8397E-05 * tx^(0.10821) / (1 + 2510.9/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "9.0711E-07 * tx^(1.6709)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1227.7385649994128 + 2012.5986713990599*((927.31/tx)/sinh(927.31/tx)) + 1757.9461403870646*((2512.8/tx)/cosh(2512.8/tx))"</parameter> 
+  </material>
+
+  <material name="Nonanoic acid (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.8105E-08 * tx^(0.99668)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "46.08 * tx^(-1.0037) / (1 -2460.2/tx + 1867000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "80.00606681075341 + 3798.708274877084*((1081.5/tx)/sinh(1081.5/tx)) + 2903.6009049659374*((418.2/tx)/cosh(418.2/tx))"</parameter> 
+  </material>
+
+  <material name="Nitric oxide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.467E-06 * tx^(0.5123) / (1 + 125.4/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0004096 * tx^(0.7509) / (1 + 45.6/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1165.7629615311553 + -1.1770939908885194*tx + 0.002575809585384305*tx^2 + -1.911511326030374E-06*tx^3 + 4.841015660149103E-10*tx^4"</parameter> 
+  </material>
+
+  <material name="Hexane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.7514E-07 * tx^(0.70737) / (1 + 157.14/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-650.5 * tx^(0.8053) / (1 -1412100000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1211.483189626362 + 4088.175552733403*((1694.6000000000001/tx)/sinh(1694.6000000000001/tx)) + 2749.045666882042*((761.6/tx)/cosh(761.6/tx))"</parameter> 
+  </material>
+
+  <material name="Tetrahydrothiophene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.5988E-08 * tx^(0.82841) / (1 + 68.172/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00085604 * tx^(0.7297) / (1 + 531.99/tx + 213840.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "741.0686377384393 + 1941.1073804951543*((777.0500000000001/tx)/sinh(777.0500000000001/tx)) + 1041.4270762873914*((2432.6/tx)/cosh(2432.6/tx))"</parameter> 
+  </material>
+
+  <material name="2-Chloropropane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.8802E-07 * tx^(0.6367) / (1 + 205.08/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "9.154E-05 * tx^(1.0681) / (1 + 746.6/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "786.9679763404137 + 2294.7343975122194*((1543.8/tx)/sinh(1543.8/tx)) + 1514.2471391895258*((685.93/tx)/cosh(685.93/tx))"</parameter> 
+  </material>
+
+  <material name="Bromoethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.2597E-08 * tx^(0.9115)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00099879 * tx^(0.71894) / (1 + 2358.4/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "480.0624053595191 + 817.7855274629468*((812.0500000000001/tx)/sinh(812.0500000000001/tx)) + 619.8320561648236*((2809.0/tx)/cosh(2809.0/tx))"</parameter> 
+  </material>
+
+  <material name="1,1-Dimethoxyethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.4172E-08 * tx^(0.91098)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00046265 * tx^(0.81968) / (1 + 539.34/tx + 104530.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1282.2760510868723 + 2031.1581096525783*((959.1899999999999/tx)/sinh(959.1899999999999/tx)) + 1105.236293427725*((2826.3/tx)/cosh(2826.3/tx))"</parameter> 
+  </material>
+
+  <material name="Benzyl mercaptan (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.0138E-08 * tx^(0.90735) / (1 + 34.714/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00015525 * tx^(0.9446) / (1 + 715.78/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "798.6253518622917 + 2385.84412570926*((1558.3/tx)/sinh(1558.3/tx)) + 1780.6272967362734*((719.16/tx)/cosh(719.16/tx))"</parameter> 
+  </material>
+
+  <material name="Acetylene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.2025E-06 * tx^(0.4952) / (1 + 291.4/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "7.5782E-05 * tx^(1.0327) / (1 -36.227/tx + 31432.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1418.0052601500618 + 1221.0568845900955*((678.0500000000001/tx)/sinh(678.0500000000001/tx)) + 1283.9282751500925*((3036.6/tx)/cosh(3036.6/tx))"</parameter> 
+  </material>
+
+  <material name="2-Methylbutane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.4344E-08 * tx^(0.97376) / (1 -91.597/tx + 18720.0/(tx^2))"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0008968 * tx^(0.7742) / (1 + 456.0/tx + 230640.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1033.9745176564315 + 4525.371045775133*((1545.0/tx)/sinh(1545.0/tx)) + 2665.325733851633*((666.7/tx)/cosh(666.7/tx))"</parameter> 
+  </material>
+
+  <material name="Cyclohexyl mercaptan (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.915E-08 * tx^(0.91427) / (1 + 22.264/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "8.13E-05 * tx^(1.0674) / (1 + 697.6/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "467.24235720392124 + 3438.3462072706197*((1357.5/tx)/sinh(1357.5/tx)) + 2204.6130040762496*((618.54/tx)/cosh(618.54/tx))"</parameter> 
+  </material>
+
+  <material name="Ethylcyclopentane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.1696E-06 * tx^(0.3812) / (1 + 577.77/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0043244 * tx^(0.5429) / (1 + 333.67/tx + 570470.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "948.9840003764282 + 2844.9048673508237*((786.5/tx)/sinh(786.5/tx)) + 1676.3072069497443*((2303.3/tx)/cosh(2303.3/tx))"</parameter> 
+  </material>
+
+  <material name="Butyl mercaptan (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.4539E-08 * tx^(0.88896) / (1 + 43.687/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00097826 * tx^(0.78643) / (1 + 1531.5/tx + 67115.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1025.4005002927245 + 3081.9229336313797*((1683.7/tx)/sinh(1683.7/tx)) + 1771.2047829403728*((758.68/tx)/cosh(758.68/tx))"</parameter> 
+  </material>
+
+  <material name="Benzenethiol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.1184E-07 * tx^(0.8002) / (1 + 152.43/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00047951 * tx^(0.7818) / (1 + 463.4/tx + 189410.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "625.8121035237533 + 2112.512938290842*((1512.0/tx)/sinh(1512.0/tx)) + 1589.8078035274928*((697.9/tx)/cosh(697.9/tx))"</parameter> 
+  </material>
+
+  <material name="Tetradecane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.1567E-09 * tx^(1.1561)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-163.62 * tx^(0.9193) / (1 -1087600000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1163.4776296953444 + 3965.8648708591245*((1682.3/tx)/sinh(1682.3/tx)) + 2746.4362763876848*((743.1/tx)/cosh(743.1/tx))"</parameter> 
+  </material>
+
+  <material name="2-Octanone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.0901E-08 * tx^(0.79062) / (1 + 99.338/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-0.0020184 * tx^(1.0027) / (1 -20406.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1084.2195475557521 + 2968.519961151854*((1371.6999999999998/tx)/sinh(1371.6999999999998/tx)) + 1760.5990825822598*((660.96/tx)/cosh(660.96/tx))"</parameter> 
+  </material>
+
+  <material name="Helium (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.253E-07 * tx^(0.7162) / (1 -9.6/tx + 107.0/(tx^2))"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00226 * tx^(0.7305) / (1 -18.63/tx + 440.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "5193.124469095088 "</parameter> 
+  </material>
+
+  <material name="Nitrogen (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.5592E-07 * tx^(0.6081) / (1 + 54.714/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00033143 * tx^(0.7722) / (1 + 16.323/tx + 373.72/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1038.9670657613854 + 307.53139568920585*((1701.6/tx)/sinh(1701.6/tx)) + 3.6768118114902157*((909.79/tx)/cosh(909.79/tx))"</parameter> 
+  </material>
+
+  <material name="Acrolein (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.523E-07 * tx^(0.579) / (1 + 410.8/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.024098 * tx^(0.3285) / (1 + 1325.3/tx + 577830.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1017.0475280959402 + 1637.9711062110907*((767.47/tx)/sinh(767.47/tx)) + 687.6874445046542*((2375.4/tx)/cosh(2375.4/tx))"</parameter> 
+  </material>
+
+  <material name="1-Pentanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.8903E-07 * tx^(0.7031) / (1 + 175.9/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2896.0 * tx^(0.8985) / (1 + 12735000000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1027.8145214536428 + 3473.6954356413403*((1605.3999999999999/tx)/sinh(1605.3999999999999/tx)) + 2399.368336506021*((717.97/tx)/cosh(717.97/tx))"</parameter> 
+  </material>
+
+  <material name="Sulfur dioxide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.863E-07 * tx^(0.6112) / (1 + 217.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "10.527 * tx^(-0.7732) / (1 -1333.0/tx + 1506400.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "520.9650379777659 + 403.7225390938408*((932.8/tx)/sinh(932.8/tx)) + 169.83070002091665*((423.7/tx)/cosh(423.7/tx))"</parameter> 
+  </material>
+
+  <material name="Fluoroethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.0868E-06 * tx^(0.35526) / (1 + 651.07/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "6.3522E-06 * tx^(1.346)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1021.4421706426409 + 1849.374213214869*((831.0699999999999/tx)/sinh(831.0699999999999/tx)) + 1126.1041001258857*((2446.0/tx)/cosh(2446.0/tx))"</parameter> 
+  </material>
+
+  <material name="Terephthalic acid (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.9218E-05 * tx^(0.12589) / (1 + 3861.1/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "3.4082E-06 * tx^(1.3647)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "602.7177133396787 + 1575.7459602323083*((872.39/tx)/sinh(872.39/tx)) + 772.3430520185174*((3521.5/tx)/cosh(3521.5/tx))"</parameter> 
+  </material>
+
+  <material name="Chlorobenzene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.065E-07 * tx^(0.7942) / (1 + 94.7/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0004783 * tx^(0.8994) / (1 + 1845.5/tx + 163000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "711.7289122212854 + 2052.2953279630124*((2157.0/tx)/sinh(2157.0/tx)) + 1817.7472904815252*((897.6/tx)/cosh(897.6/tx))"</parameter> 
+  </material>
+
+  <material name="Nitromethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.07E-07 * tx^(0.6485) / (1 + 367.5/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "3.135E-05 * tx^(1.1119) / (1 -91.6/tx + 128000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "784.3378819338526 + 1283.6987930213654*((829.6/tx)/sinh(829.6/tx)) + 609.681975857806*((2433.8/tx)/cosh(2433.8/tx))"</parameter> 
+  </material>
+
+  <material name="Trimethyl amine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.2434E-06 * tx^(0.4832) / (1 + 447.7/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00027648 * tx^(0.901) / (1 + 167.68/tx + 132200.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1202.329341809696 + 2546.25846680424*((796.62/tx)/sinh(796.62/tx)) + 1430.157810166966*((2187.6/tx)/cosh(2187.6/tx))"</parameter> 
+  </material>
+
+  <material name="Methylbutyl sulfide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.995E-08 * tx^(0.89479) / (1 + 44.662/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.079414 * tx^(0.23442) / (1 + 2671.9/tx + 1366100.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1034.8897460993724 + 2628.0538123476695*((1588.5/tx)/sinh(1588.5/tx)) + 1829.600629473967*((749.6/tx)/cosh(749.6/tx))"</parameter> 
+  </material>
+
+  <material name="Cyclohexene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.3326E-06 * tx^(0.4537) / (1 + 445.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "9.01E-05 * tx^(1.0897) / (1 + 655.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "708.1622914018864 + 3861.1650816375222*((1543.5/tx)/sinh(1543.5/tx)) + 2589.733101544125*((701.62/tx)/cosh(701.62/tx))"</parameter> 
+  </material>
+
+  <material name="Propadiene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.0758E-07 * tx^(0.53845) / (1 + 173.45/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "6.1629E-05 * tx^(1.0731) / (1 + 1.8579/tx + 70128.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1205.7749802440405 + 1838.6895321619036*((781.52/tx)/sinh(781.52/tx)) + 1215.5094391803486*((2480.0/tx)/cosh(2480.0/tx))"</parameter> 
+  </material>
+
+  <material name="Tetrahydrofuran (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.778E-07 * tx^(0.6533) / (1 + 271.01/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "9.5521E-06 * tx^(1.4561) / (1 + 662.22/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "760.6886111115733 + 2564.4290078512495*((833.0999999999999/tx)/sinh(833.0999999999999/tx)) + 1235.533047863609*((2458.5/tx)/cosh(2458.5/tx))"</parameter> 
+  </material>
+
+  <material name="Ethylene oxide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.3403E-08 * tx^(0.94806)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-0.0003788 * tx^(1.115) / (1 -5641.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "759.5472317613323 + 2750.350944417305*((1608.4/tx)/sinh(1608.4/tx)) + 1870.7198855185716*((737.3/tx)/cosh(737.3/tx))"</parameter> 
+  </material>
+
+  <material name="2,2,4-Trimethylpentane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.107E-07 * tx^(0.746) / (1 + 72.4/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.758E-05 * tx^(1.3114) / (1 + 392.9/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "997.1240107111604 + 4627.5658653373075*((1594.0/tx)/sinh(1594.0/tx)) + 2933.5931166752403*((677.94/tx)/cosh(677.94/tx))"</parameter> 
+  </material>
+
+  <material name="2,3-Dimethylbutane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.8567E-07 * tx^(0.52542) / (1 + 278.82/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "3.4741E-05 * tx^(1.1646) / (1 -99.956/tx + 130820.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "901.8819300551805 + 4678.831628901811*((1544.0/tx)/sinh(1544.0/tx)) + 2910.3446739299957*((649.95/tx)/cosh(649.95/tx))"</parameter> 
+  </material>
+
+  <material name="Diethyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.948E-06 * tx^(0.41) / (1 + 495.8/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-0.0044894 * tx^(0.6155) / (1 -3266.3/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1348.5003022061046 + 2298.6551828346933*((870.72/tx)/sinh(870.72/tx)) + 1449.7798212666753*((2471.3/tx)/cosh(2471.3/tx))"</parameter> 
+  </material>
+
+  <material name="Methylbutyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.9342E-08 * tx^(0.91086)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.3993E-05 * tx^(1.1976) / (1 + 58.59/tx + 35667.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "930.83033591845 + 3501.9441127428836*((1386.4/tx)/sinh(1386.4/tx)) + 2029.083300415278*((613.87/tx)/cosh(613.87/tx))"</parameter> 
+  </material>
+
+  <material name="2-Methylpropane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.0871E-07 * tx^(0.78135) / (1 + 70.639/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.089772 * tx^(0.18501) / (1 + 639.23/tx + 1114700.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1314.3686921692572 + 2890.8059226939104*((826.5400000000001/tx)/sinh(826.5400000000001/tx)) + 1769.5476083148951*((2483.1/tx)/cosh(2483.1/tx))"</parameter> 
+  </material>
+
+  <material name="2-Pentanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.1749E-07 * tx^(0.7649) / (1 + 103.78/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00019575 * tx^(0.9692) / (1 + 664.04/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1231.2219648274156 + 3488.102990191518*((1867.2/tx)/sinh(1867.2/tx)) + 2526.5405306064104*((825.4/tx)/cosh(825.4/tx))"</parameter> 
+  </material>
+
+  <material name="Cyanogen (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.7385E-08 * tx^(0.98433)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.4433E-05 * tx^(1.2104)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "881.9866704590006 + 793.430550324014*((1381.2/tx)/sinh(1381.2/tx)) + 634.6329763927218*((559.94/tx)/cosh(559.94/tx))"</parameter> 
+  </material>
+
+  <material name="1-Octyne (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.7084E-07 * tx^(0.52446) / (1 + 271.76/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "6.0734E-05 * tx^(1.0516) / (1 -124.91/tx + 158300.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1116.8204945408556 + 3170.8736264115205*((1528.0/tx)/sinh(1528.0/tx)) + 2233.9132293907733*((694.81/tx)/cosh(694.81/tx))"</parameter> 
+  </material>
+
+  <material name="Methylcyclohexane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.5281E-07 * tx^(0.5294) / (1 + 310.59/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "7.19E-05 * tx^(1.1274) / (1 + 667.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "939.7464365104374 + 4191.022636003522*((1650.4/tx)/sinh(1650.4/tx)) + 2954.1871829870756*((779.48/tx)/cosh(779.48/tx))"</parameter> 
+  </material>
+
+  <material name="1-Hexanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.5773E-07 * tx^(0.7189) / (1 + 163.3/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-4935500.0 * tx^(-0.1653) / (1 + 1563100000.0/tx -15752000000000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1039.8849970384074 + 3446.056540773866*((1583.5/tx)/sinh(1583.5/tx)) + 2409.597047255115*((715.75/tx)/cosh(715.75/tx))"</parameter> 
+  </material>
+
+  <material name="Octadecane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.2095E-07 * tx^(0.61839) / (1 + 709.09/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-291.08 * tx^(1.0615) / (1 -6019900000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1159.2400176161102 + 3942.7206076740736*((771.07/tx)/sinh(771.07/tx)) -1690.0966591317242*((916.73/tx)/cosh(916.73/tx))"</parameter> 
+  </material>
+
+  <material name="Nitroethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.4391E-07 * tx^(0.702) / (1 + 280.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0011282 * tx^(0.6895) / (1 + 679.11/tx + 238800.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "853.6952519496022 + 1549.4241113890866*((809.6999999999999/tx)/sinh(809.6999999999999/tx)) + 793.8417352058041*((2425.6/tx)/cosh(2425.6/tx))"</parameter> 
+  </material>
+
+  <material name="Sulfur trioxide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.9067E-06 * tx^(0.3845) / (1 + 470.1/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.0702 * tx^(-0.2348) / (1 + 2010.4/tx + 1277000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "417.27035641842946 + 620.4723268617793*((873.22/tx)/sinh(873.22/tx)) + 356.75566302620933*((393.74/tx)/cosh(393.74/tx))"</parameter> 
+  </material>
+
+  <material name="m-Cresol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.4427E-07 * tx^(0.7438) / (1 + 166.15/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00019307 * tx^(0.9248) / (1 + 710.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "841.2782872819148 + 1971.650621401467*((763.24/tx)/sinh(763.24/tx)) + 863.2964859102948*((2474.5/tx)/cosh(2474.5/tx))"</parameter> 
+  </material>
+
+  <material name="Formamide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.829E-08 * tx^(0.8774) / (1 + 54.864/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00025893 * tx^(0.9083) / (1 + 723.6/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "848.5673598631636 + 2064.802837971591*((1845.0/tx)/sinh(1845.0/tx)) + 1531.9504926885998*((850.0/tx)/cosh(850.0/tx))"</parameter> 
+  </material>
+
+  <material name="1-Nonyne (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.1447E-07 * tx^(0.50705) / (1 + 287.19/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.6681E-05 * tx^(1.218) / (1 -199.41/tx + 144580.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1311.2672707077431 + 3196.500754206094*((1892.8/tx)/sinh(1892.8/tx)) + 2586.953466232674*((855.52/tx)/cosh(855.52/tx))"</parameter> 
+  </material>
+
+  <material name="1-Heptanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.572E-07 * tx^(0.6502) / (1 + 248.6/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "-0.061993 * tx^(0.2792) / (1 -3336.0/tx -1642000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1051.1926970893794 + 3434.555918201976*((1580.0/tx)/sinh(1580.0/tx)) + 2439.7309015541473*((717.7/tx)/cosh(717.7/tx))"</parameter> 
+  </material>
+
+  <material name="Ethyl amine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.934E-07 * tx^(0.5924) / (1 + 239.17/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.3935 * tx^(0.0131) / (1 + 1380.0/tx + 1710000.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1317.5499426843594 + 3588.881830409585*((1812.0/tx)/sinh(1812.0/tx)) + 2391.1091552419857*((820.0/tx)/cosh(820.0/tx))"</parameter> 
+  </material>
+
+  <material name="Acrylic acid (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.7154E-07 * tx^(0.7418) / (1 + 138.4/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0009265 * tx^(0.7035) / (1 + 627.58/tx + 112460.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "840.7960516583763 + 1901.5395768071844*((1647.5/tx)/sinh(1647.5/tx)) + 1449.5718032057102*((751.49/tx)/cosh(751.49/tx))"</parameter> 
+  </material>
+
+  <material name="Chloroform (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.696E-07 * tx^(0.7693) / (1 + 96.6/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00043073 * tx^(0.83878) / (1 + 1874.5/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "330.21259257596313 + 550.6056243028427*((928.0/tx)/sinh(928.0/tx)) + 412.975160172374*((399.6/tx)/cosh(399.6/tx))"</parameter> 
+  </material>
+
+  <material name="Ozone (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.196E-07 * tx^(0.84797)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0043147 * tx^(0.47999) / (1 + 700.09/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "697.5886595747342 + 616.2106078977961*((1521.7/tx)/sinh(1521.7/tx)) + 565.6670458475526*((680.35/tx)/cosh(680.35/tx))"</parameter> 
+  </material>
+
+  <material name="Bromomethane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.5411E-08 * tx^(0.92914)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "5.7816E-07 * tx^(1.6666)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "381.7312509190158 + 729.3983516911787*((1745.4/tx)/sinh(1745.4/tx)) + 471.6842015232595*((793.32/tx)/cosh(793.32/tx))"</parameter> 
+  </material>
+
+  <material name="Hydrogen (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.797E-07 * tx^(0.685) / (1 -0.59/tx + 140.0/(tx^2))"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.002653 * tx^(0.7452) / (1 + 12.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "13699.724189931942 + 4742.345774550072*((2466.0/tx)/sinh(2466.0/tx)) + 1865.1903883167647*((567.6/tx)/cosh(567.6/tx))"</parameter> 
+  </material>
+
+  <material name="Heptanal (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.2392E-05 * tx^(0.1011) / (1 + 3420.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.4326E-06 * tx^(1.5896)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1146.6433642251823 + 3098.5556304629326*((1525.0/tx)/sinh(1525.0/tx)) + 1961.2829864678042*((740.37/tx)/cosh(740.37/tx))"</parameter> 
+  </material>
+
+  <material name="Dimethyl terephthalate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.9554E-08 * tx^(0.892597)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00402358 * tx^(0.57548) / (1 + 3598.32/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "587.2007992419561 + 2764.3935648663123*((2088.6/tx)/sinh(2088.6/tx)) + 2129.114654142463*((809.837/tx)/cosh(809.837/tx))"</parameter> 
+  </material>
+
+  <material name="Benzyl ethyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.56E-07 * tx^(0.7181) / (1 + 180.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00096451 * tx^(0.69225) / (1 + 519.99/tx + 278930.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "699.0918194435491 + 2119.6704803798316*((702.0699999999999/tx)/sinh(702.0699999999999/tx)) + 1203.0899550028937*((2002.6/tx)/cosh(2002.6/tx))"</parameter> 
+  </material>
+
+  <material name="Oxalic acid (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.3032E-05 * tx^(0.10487) / (1 + 4210.1/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.7969E-06 * tx^(1.3164)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "630.6111586976069 + 1243.2959315323128*((620.7/tx)/sinh(620.7/tx)) -422.93608876915255*((676.72/tx)/cosh(676.72/tx))"</parameter> 
+  </material>
+
+  <material name="Isopropyl amine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.2542E-08 * tx^(0.88063)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00028183 * tx^(0.92094) / (1 + 619.17/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1345.5193734556403 + 2440.3546863099573*((818.31/tx)/sinh(818.31/tx)) + 1615.5063435687816*((2499.9/tx)/cosh(2499.9/tx))"</parameter> 
+  </material>
+
+  <material name="Dodecane (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.344E-08 * tx^(0.8287) / (1 + 219.5/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "5.719E-06 * tx^(1.4699) / (1 + 579.4/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1250.1846363315926 + 3894.094713682767*((1715.5/tx)/sinh(1715.5/tx)) + 2651.307272193991*((777.5/tx)/cosh(777.5/tx))"</parameter> 
+  </material>
+
+  <material name="Phenol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "1.0094E-07 * tx^(0.799) / (1 + 103.1/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.038846 * tx^(0.2392) / (1 + 985.81/tx + 937170.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "461.1563932214686 + 2597.989358125554*((1152.0/tx)/sinh(1152.0/tx)) + 1606.6093699328583*((507.0/tx)/cosh(507.0/tx))"</parameter> 
+  </material>
+
+  <material name="1,2,3,4-Tetrahydronaphthalene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.0784E-07 * tx^(0.5614) / (1 + 328.55/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "7.754E-05 * tx^(1.0778) / (1 + 729.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "798.3977280875944 + 2428.172948303161*((782.4799999999999/tx)/sinh(782.4799999999999/tx)) + 1088.8617049569796*((2433.0/tx)/cosh(2433.0/tx))"</parameter> 
+  </material>
+
+  <material name="1-Methylcyclopentene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.7026E-08 * tx^(0.92849)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0040082 * tx^(0.54462) / (1 + 242.12/tx + 559040.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "844.995836559391 + 3677.584133152187*((1690.3/tx)/sinh(1690.3/tx)) + 2581.9418676561527*((781.56/tx)/cosh(781.56/tx))"</parameter> 
+  </material>
+
+  <material name="Ethyleneimine (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.8132E-07 * tx^(0.6792) / (1 + 238.46/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00077079 * tx^(0.7713) / (1 + 446.16/tx + 197930.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "796.418670096917 + 3313.3802980416926*((1638.0/tx)/sinh(1638.0/tx)) + 2407.8313728586086*((744.7/tx)/cosh(744.7/tx))"</parameter> 
+  </material>
+
+  <material name="Methylpropyl ether (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.4941E-08 * tx^(0.90199)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.011136 * tx^(0.4831) / (1 + 2170.3/tx + 281220.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1243.2408366791867 + 3230.2324828390106*((1693.6/tx)/sinh(1693.6/tx)) + 2009.670595346026*((797.79/tx)/cosh(797.79/tx))"</parameter> 
+  </material>
+
+  <material name="Methyl methacrylate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "4.889E-07 * tx^(0.6096) / (1 + 342.23/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00072502 * tx^(0.7395) / (1 + 365.68/tx + 204360.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "863.0004728523425 + 1808.9049263143427*((754.3/tx)/sinh(754.3/tx)) + 799.074511900317*((2160.0/tx)/cosh(2160.0/tx))"</parameter> 
+  </material>
+
+  <material name="Dimethyl phthalate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "5.2195E-08 * tx^(0.85584) / (1 + 69.036/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.00012822 * tx^(0.9324) / (1 + 752.5/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "718.905780084868 + 2461.582828657356*((2190.0/tx)/sinh(2190.0/tx)) + 2044.7101717958226*((900.6/tx)/cosh(900.6/tx))"</parameter> 
+  </material>
+
+  <material name="Ethyl acetate (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "3.214E-06 * tx^(0.3572) / (1 + 667.0/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "1.3575E-07 * tx^(1.9681)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1132.8513030797756 + 2375.6848637173416*((2022.6000000000001/tx)/sinh(2022.6000000000001/tx)) + 2046.4190957347314*((928.05/tx)/cosh(928.05/tx))"</parameter> 
+  </material>
+
+  <material name="Methylethyl sulfide (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.6219E-08 * tx^(0.83591) / (1 + 72.564/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0034805 * tx^(0.61906) / (1 + 1810.8/tx + 166290.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "985.8509518044763 + 2570.4892030787573*((1642.4/tx)/sinh(1642.4/tx)) + 1568.921463328808*((749.19/tx)/cosh(749.19/tx))"</parameter> 
+  </material>
+
+  <material name="1-Nonene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.6329E-08 * tx^(0.82027) / (1 + 76.204/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2.1269E-05 * tx^(1.2943) / (1 + 662.21/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1216.1038384109154 + 3710.7326867197057*((1728.8/tx)/sinh(1728.8/tx)) + 2558.9511722268244*((783.67/tx)/cosh(783.67/tx))"</parameter> 
+  </material>
+
+  <material name="Malonic acid (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "6.7978E-05 * tx^(0.092766) / (1 + 4637.3/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "4.8284E-06 * tx^(1.3599)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "475.8918431473093 + 1798.744703370489*((1295.8/tx)/sinh(1295.8/tx)) + 1427.233482982076*((569.96/tx)/cosh(569.96/tx))"</parameter> 
+  </material>
+
+  <material name="Neon (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "7.19E-07 * tx^(0.6659) / (1 + 5.3/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "0.0011385 * tx^(0.6646) / (1 + 8.7/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1030.0450452682644 "</parameter> 
+  </material>
+
+  <material name="Ethylene (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "2.0789E-06 * tx^(0.4163) / (1 + 352.7/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "8.6806E-06 * tx^(1.4559) / (1 + 299.72/tx -29403.0/(tx^2))"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1189.8837777990075 + 3378.9419801548206*((1596.0/tx)/sinh(1596.0/tx)) + 1964.1281053542634*((740.8/tx)/cosh(740.8/tx))"</parameter> 
+  </material>
+
+  <material name="3-Methyl-1-butanol (gas, low P)" >
+    <parameter name="Liquid" >Logical False</parameter>
+    <parameter name="Viscosity" >Variable Temperature; Real MATC "8.9348E-08 * tx^(0.80197) / (1 + 77.653/tx)"</parameter>
+    <parameter name="Heat conductivity" >Variable Temperature; Real MATC "2054.5 * tx^(0.90109) / (1 + 8760500000.0/tx)"</parameter> 
+    <parameter name="Heat capacity" >Variable Temperature; Real MATC "1045.2737548809846 + 3785.783487354251*((1836.1000000000001/tx)/sinh(1836.1000000000001/tx)) + 2795.7462546030433*((757.83/tx)/cosh(757.83/tx))"</parameter> 
+  </material>
+
